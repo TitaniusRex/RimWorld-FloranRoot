@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>"Witcher Zweihander"</name>
+    <name>[TODO]</name>
     <author>TitaniusRex</author>
     <supportedVersions>
 		<li>1.4</li>
     </supportedVersions>
-	<packageId>TitaniusRex.WitcherZweihander</packageId>
+	<packageId>TitaniusRex.[TODO]</packageId>
     <description>
--Three Twohander Swords
--Two Armor
--Headband
--Protective amulet
--Bandana
--Two relics
-
-
--Три двуручных меча
--Два Доспеха
--Повязка на голову
--Защитный амулет
--Бандана
--Две реликвии
+	    [TODO]
     </description>
 	<modDependencies>
 		<li>
