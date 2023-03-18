@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>[TODO]</name>
+    <name>Floran Root</name>
     <author>TitaniusRex</author>
     <supportedVersions>
 		<li>1.4</li>
     </supportedVersions>
-	<packageId>TitaniusRex.[TODO]</packageId>
+	<packageId>TitaniusRex.FloranRoot</packageId>
     <description>
-	    [TODO]
+	    butt beware
     </description>
 	<modDependencies>
 		<li>
