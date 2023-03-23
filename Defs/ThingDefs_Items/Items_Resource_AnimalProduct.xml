@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Abstract="True" Name="EggFertAvesome" ParentName="EggBase" >
+        <tickerType>Normal</tickerType>
+        <ingestible>
+            <preferability>DesperateOnly</preferability>
+        </ingestible>
+        <thingCategories>
+             <li>EggsFertilized</li>
+        </thingCategories>
+         <comps>
+            <li Class="CompProperties_TemperatureRuinable">
+            <minSafeTemperature>-1200</minSafeTemperature>
+            <maxSafeTemperature>1200</maxSafeTemperature>
+            <progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
+         </li>
+         </comps>
+     </ThingDef>
+
+  <!-- not Cobra -->
+  
+  <ThingDef ParentName="EggFertAvesome">
+	  
+    <defName>PotatoKingEgg</defName>
+    <label>Potatoking grain</label>
+    <description>A fertilized cobra egg. If all goes well, it should hatch into a baby cobra. It can be eaten raw, but it's much better cooked.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Resource/AnimalProductRaw/FloranEgg</texPath>
+      <color>(184, 134, 11)</color>
+		<!--92,136,19-->
+		<drawSize>1</drawSize>
+    </graphicData>
+	  <statBases>
+		  <Mass>1.15</Mass>
+		  <MaxHitPoints>120</MaxHitPoints>
+		  <DeteriorationRate>0.3</DeteriorationRate>
+		  <Flammability>0</Flammability>
+		  <Nutrition>3</Nutrition>
+		  <FoodPoisonChanceFixedHuman>0.1</FoodPoisonChanceFixedHuman>
+	      <MarketValue>60.0</MarketValue>
+    </statBases>
+    <comps>
+		<li Class="CompProperties_Hatcher">
+			<hatcherDaystoHatch>5</hatcherDaystoHatch><!--6-->
+			<hatcherPawn>PotatoKing</hatcherPawn>
+		</li>
+	  </comps>
+  </ThingDef>
+
+	<!-- not Cobra 2 -->
+
+	<ThingDef ParentName="EggFertAvesome">
+
+		<defName>RicemonkeyEgg</defName>
+		<label>Ricemonkey grain</label>
+		<description>A fertilized cobra egg. If all goes well, it should hatch into a baby cobra. It can be eaten raw, but it's much better cooked.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/FloranEgg</texPath>
+			<color>(70, 185, 122)</color>
+			<drawSize>0.2</drawSize>
+		</graphicData>
+		<statBases>
+			<Mass>0.10</Mass>
+			<MaxHitPoints>120</MaxHitPoints>
+			<DeteriorationRate>0.3</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Nutrition>0.25</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.1</FoodPoisonChanceFixedHuman>
+			<MarketValue>15.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>3</hatcherDaystoHatch>
+				<hatcherPawn>Ricemonkey</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- not Cobra 3 -->
+
+	<ThingDef ParentName="EggFertAvesome">
+
+		<defName>KibblebakaEgg</defName>
+		<label>Kibblebaka grain</label>
+		<description>A fertilized cobra egg. If all goes well, it should hatch into a baby cobra. It can be eaten raw, but it's much better cooked.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/FloranEgg</texPath>
+			<color>(106, 127, 122)</color>
+			<drawSize>0.2</drawSize>
+		</graphicData>
+		<statBases>
+			<Mass>0.10</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+			<DeteriorationRate>1</DeteriorationRate>
+			<Flammability>1</Flammability>
+			<Nutrition>0.25</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.55</FoodPoisonChanceFixedHuman>
+			<MarketValue>5.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>4</hatcherDaystoHatch>
+				<hatcherPawn>Kibblebaka</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- Berryffalo -->
+
+    <ThingDef ParentName="EggFertAvesome">
+		<defName>BerryffaloEgg</defName>
+	    <label>Berryffalo grain</label>
+		<description>A fertilized cobra egg. If all goes well, it should hatch into a baby cobra. It can be eaten raw, but it's much better cooked.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/FloranEgg</texPath>
+			<color>(116, 66, 200)</color>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<statBases>
+			<Mass>1.5</Mass>
+			<MaxHitPoints>120</MaxHitPoints>
+			<DeteriorationRate>0.3</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Nutrition>3</Nutrition>
+			<FoodPoisonChanceFixedHuman>0</FoodPoisonChanceFixedHuman>
+			<MarketValue>120.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>3</hatcherDaystoHatch>
+				<hatcherPawn>Berryffalo</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+  
+</Defs>
