@@ -224,7 +224,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/FloranRoot/PotatoKing/PotatoKingFemale</texPath>
           <drawSize>0.5</drawSize>
-          <color>(92,136,19)</color>
+			<color>(190, 245, 116)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/FloranRoot/PotatoKing/Dessicated_PotatoKing</texPath>
@@ -232,26 +232,28 @@
         </dessicatedBodyGraphicData>
       </li>
 		
-      <li>
+      <li><!--
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/FloranRoot/PotatoKing/PotatoKingMale</texPath>
           <drawSize>1.7</drawSize>
-          <color>(92,136,19)</color>
+			<color>(190, 245, 116)</color>
           <shadowData>
             <volume>(0.25, 0.3, 0.25)</volume>
             <offset>(0,0,-0.15)</offset>
           </shadowData>
         </bodyGraphicData>
 		  
-		 <femaleGraphicData>
+		 <femaleGraphicData>-->
+		  <bodyGraphicData>
 			 <texPath>Things/Pawn/Animal/FloranRoot/PotatoKing/PotatoKingFemale</texPath>
 			 <drawSize>1.6</drawSize>
-			 <color>(154, 205, 50)</color>
+			 <color>(190, 245, 116)</color>
 			 <shadowData>
 				 <volume>(0.4, 0.4, 0.4)</volume>
 				 <offset>(0,0,-0.2)</offset>
 			 </shadowData>
-		 </femaleGraphicData>
+			  </bodyGraphicData>
+		  <!--</femaleGraphicData>-->
 			  
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/FloranRoot/PotatoKing/Dessicated_PotatoKing</texPath>
@@ -262,18 +264,20 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/FloranRoot/PotatoKing/PotatoKingMale</texPath>
-          <drawSize>3</drawSize>
-          <color>(34, 139, 34)</color>
+          <drawSize>3.4</drawSize>
+         <!-- <color>(34, 139, 34)</color>-->
+			<color>(190, 245, 116)</color>
           <shadowData>
-            <volume>(0.3, 0.4, 0.3)</volume>
-            <offset>(0,0,-0.15)</offset>
-          </shadowData>
+			<volume>(0.3, 0.4, 0.3)</volume>
+			<offset>(0,0,-0.15)</offset>
+		</shadowData>
         </bodyGraphicData>
 		  
 			  <femaleGraphicData>
 				  <texPath>Things/Pawn/Animal/FloranRoot/PotatoKing/PotatoKingFemale</texPath>
-				  <drawSize>2.7</drawSize>
-				  <color>(154, 205, 50)</color>
+				  <drawSize>3</drawSize>
+				 <!-- <color>(150,224,31)</color>-->
+				  <color>(190, 245, 116)</color>
 				  <shadowData>
 					  <volume>(0.4, 0.4, 0.4)</volume>
 					  <offset>(0,0,-0.2)</offset>
