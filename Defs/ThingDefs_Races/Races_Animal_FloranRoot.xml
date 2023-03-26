@@ -14,9 +14,12 @@
 				<FilthRate>40</FilthRate>
 				<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">-0.0</ToxicEnvironmentResistance>
 				<ToxicResistance>-1</ToxicResistance>
+				<StaggerDurationFactor>0</StaggerDurationFactor>
+				
 			</statBases>
 		
 		<race>
+			<hideTrainingTab>true</hideTrainingTab>
 			<petness>0.05</petness>
 			<canBePredatorPrey>false</canBePredatorPrey>
 			<herdAnimal>true</herdAnimal>
@@ -32,8 +35,10 @@
 		    <nameOnTameChance>1</nameOnTameChance>
 			<trainability>None</trainability>
 			<packAnimal>false</packAnimal>
-			<wildness>0.95</wildness>
+			<wildness>0.985</wildness>
 		    <gestationPeriodDays>30</gestationPeriodDays>
+			
+	
 		</race>
 		
 
@@ -47,9 +52,8 @@
 			<devNote>misc</devNote>
 			<description>Heavimeat or corpses. If disendants of weapor populee them as thols of agod.</description>
 			<statBases>
-				
 				<MoveSpeed>6.0</MoveSpeed>
-				<MarketValue>2450</MarketValue>	
+				<MarketValue>4000</MarketValue>	
 				</statBases>
 
 	  <comps>
@@ -67,8 +71,11 @@
 		<body>QuadrupedFloranWithPawsAndTail</body>
       <baseBodySize>3</baseBodySize>
       <baseHungerRate>0.06</baseHungerRate>
-      <baseHealthScale>10.0</baseHealthScale>
+      <baseHealthScale>12.0</baseHealthScale>
       <maxPreyBodySize>6.0</maxPreyBodySize>
+		<roamMtbDays>1</roamMtbDays>
+		<mateMtbHours>20</mateMtbHours>
+		<!--<useMeatFrom>Panther</useMeatFrom>-->
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -79,12 +86,10 @@
         </points>
       </litterSizeCurve>
       <lifeExpectancy>20</lifeExpectancy>
-		
-		<!--biom-->
 			<wildBiomes>
 				<TemperateForest>0.8</TemperateForest>
 				<TemperateSwamp>0.8</TemperateSwamp>
-				<TropicalRainforest>0.8</TropicalRainforest><!--1.5 too many-->
+				<TropicalRainforest>0.8</TropicalRainforest>
 				<TropicalSwamp>0.8</TropicalSwamp>
 
 				<BorealForest>0.7</BorealForest>
@@ -93,9 +98,9 @@
 				<IceSheet>0.4</IceSheet>
 				<SeaIce>0.3</SeaIce>
 
-				<AridShrubland>1</AridShrubland><!--0.5-->
+				<AridShrubland>1</AridShrubland>
 				<Desert>1</Desert>
-				<ExtremeDesert>1</ExtremeDesert><!--0.9-->
+				<ExtremeDesert>1</ExtremeDesert>
 			</wildBiomes>
       <lifeStageAges>
         <li>
@@ -125,10 +130,7 @@
         <li>(-0.3, 0, 0.03)</li>
       </headPosPerRotation>
     </race>
-		<!--
-	 <butcherProducts>
-			<RawPotatoes>280</RawPotatoes>
-	</butcherProducts>-->	
+	
 	
 	<modExtensions>
 		<li Class="CustomButcherFramework.CustomButcherExtension">
@@ -146,7 +148,6 @@
 	</modExtensions>
     <tradeTags>
       <li>AnimalUncommon</li>
-		<li>AnimalExotic</li>
     </tradeTags>
 	  
     <tools>
@@ -191,7 +192,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>33</power>
+        <power>45</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.9</chanceFactor>
@@ -213,9 +214,9 @@
     <defName>PotatoKing</defName>
     <label>PotatoKing</label>
     <race>PotatoKing</race>
-    <combatPower>500</combatPower>
+    <combatPower>600</combatPower>
     <ecoSystemWeight>0.50</ecoSystemWeight>
-	<wildGroupSize>3~7</wildGroupSize>
+	<wildGroupSize>4~8</wildGroupSize>
 	  
     <lifeStages>
       <li>
@@ -232,29 +233,13 @@
         </dessicatedBodyGraphicData>
       </li>
 		
-      <li><!--
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/FloranRoot/PotatoKing/PotatoKingMale</texPath>
-          <drawSize>1.7</drawSize>
-			<color>(190, 245, 116)</color>
-          <shadowData>
-            <volume>(0.25, 0.3, 0.25)</volume>
-            <offset>(0,0,-0.15)</offset>
-          </shadowData>
-        </bodyGraphicData>
-		  
-		 <femaleGraphicData>-->
+      <li>
 		  <bodyGraphicData>
 			 <texPath>Things/Pawn/Animal/FloranRoot/PotatoKing/PotatoKingFemale</texPath>
 			 <drawSize>1.6</drawSize>
 			 <color>(190, 245, 116)</color>
-			 <shadowData>
-				 <volume>(0.4, 0.4, 0.4)</volume>
-				 <offset>(0,0,-0.2)</offset>
-			 </shadowData>
 			  </bodyGraphicData>
-		  <!--</femaleGraphicData>-->
-			  
+		
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/FloranRoot/PotatoKing/Dessicated_PotatoKing</texPath>
           <drawSize>1.4</drawSize>
@@ -265,23 +250,13 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/FloranRoot/PotatoKing/PotatoKingMale</texPath>
           <drawSize>3.4</drawSize>
-         <!-- <color>(34, 139, 34)</color>-->
 			<color>(190, 245, 116)</color>
-          <shadowData>
-			<volume>(0.3, 0.4, 0.3)</volume>
-			<offset>(0,0,-0.15)</offset>
-		</shadowData>
         </bodyGraphicData>
 		  
 			  <femaleGraphicData>
 				  <texPath>Things/Pawn/Animal/FloranRoot/PotatoKing/PotatoKingFemale</texPath>
 				  <drawSize>3</drawSize>
-				 <!-- <color>(150,224,31)</color>-->
 				  <color>(190, 245, 116)</color>
-				  <shadowData>
-					  <volume>(0.4, 0.4, 0.4)</volume>
-					  <offset>(0,0,-0.2)</offset>
-				  </shadowData>
 				  </femaleGraphicData>
 		  
         <dessicatedBodyGraphicData>
@@ -361,6 +336,8 @@
 			<baseHealthScale>4.45</baseHealthScale>
 			<maxPreyBodySize>5.0</maxPreyBodySize>
 			<lifeExpectancy>7</lifeExpectancy>
+			<roamMtbDays>1</roamMtbDays>
+			<mateMtbHours>20</mateMtbHours>
 			<!--biom-->
 			<wildBiomes>
 				<TemperateForest>1</TemperateForest>
@@ -435,7 +412,7 @@
 		<race>Ricemonkey</race>
 		<combatPower>300</combatPower>
 		<ecoSystemWeight>0.20</ecoSystemWeight>
-		<wildGroupSize>12~19</wildGroupSize>
+		<wildGroupSize>22~39</wildGroupSize>
 		
 			<lifeStages>
 				<li>
@@ -452,10 +429,6 @@
 					<bodyGraphicData>
 						<texPath>Things/Pawn/Animal/FloranRoot/Ricemonkey/Ricemonkey</texPath>
 						<drawSize>1</drawSize>
-						<shadowData>
-							<volume>(0.2, 0.2, 0.2)</volume>
-							<offset>(0,0,-0.2)</offset>
-							</shadowData>
 						</bodyGraphicData>
 					<dessicatedBodyGraphicData>
 						<texPath>Things/Pawn/Animal/FloranRoot/Ricemonkey/Dessicated_Ricemonkey</texPath>
@@ -466,10 +439,6 @@
 					<bodyGraphicData>
 						<texPath>Things/Pawn/Animal/FloranRoot/Ricemonkey/Ricemonkey</texPath>
 						<drawSize>1.2</drawSize>
-						<shadowData>
-							<volume>(0.3, 0.3, 0.3)</volume>
-							<offset>(0,0,-0.2)</offset>
-						</shadowData>
 						</bodyGraphicData>
 					<dessicatedBodyGraphicData>
 						<texPath>Things/Pawn/Animal/FloranRoot/Ricemonkey/Dessicated_Ricemonkey</texPath>
@@ -479,13 +448,13 @@
 				</lifeStages>
 		</PawnKindDef>
 
-<!--__________________________________________________kibble baka__________________________________________________-->
+<!--__________________________________________________Kibblebaka__________________________________________________-->
 
 	 <ThingDef ParentName="AnimalFloranBase">
 		<defName>Kibblebaka</defName>
 		<label>Kibblebaka</label>
 		<devNote>Floran</devNote>
-		<description>play pal, and family friend.</description>
+		<description>Afghan Hound</description>
 		<statBases>
 			<LeatherAmount>0</LeatherAmount>
 			<Flammability>2</Flammability>
@@ -547,6 +516,7 @@
 			</li>
 		</tools>
 		<race>
+			<hideTrainingTab>false</hideTrainingTab>
 			<animalType>Canine</animalType>
 			<body>QuadrupedFloranWithPawsAndTail</body>
 			<petness>2</petness>
@@ -622,7 +592,7 @@
 	</modExtensions>
 
 		<tradeTags>
-			<li>AnimalCommon</li>
+			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
 	</ThingDef>
@@ -632,58 +602,387 @@
 		<label>Kibblebaka</label>
 		<race>Kibblebaka</race>
 		<combatPower>30</combatPower>
-		<ecoSystemWeight>0.2</ecoSystemWeight><!--0.6-->
-		<wildGroupSize>3~7</wildGroupSize>
+		<canArriveManhunter>false</canArriveManhunter><!---->
+		<ecoSystemWeight>0.2</ecoSystemWeight>
+		<wildGroupSize>2~6</wildGroupSize>
 		<lifeStages>
 			<li>
 				<label>Kibblebaka puppy</label>
 				<labelPlural>Kibblebaka puppies</labelPlural>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Labrador/Labrador</texPath>
-					<drawSize>0.95</drawSize>
-					<color>(220,198,160)</color>
+					<texPath>Things/Pawn/Animal/FloranRoot/Kibblebaka/Kibblebaka</texPath>
+					<drawSize>0.2</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Labrador/Dessicated_Labrador</texPath>
-					<drawSize>0.95</drawSize>
+					<texPath>Things/Pawn/Animal/FloranRoot/Kibblebaka/Dessicated_Kibblebaka</texPath>
+					<drawSize>0.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Labrador/Labrador</texPath>
+					<texPath>Things/Pawn/Animal/FloranRoot/Kibblebaka/Kibblebaka</texPath>
 					<drawSize>1.35</drawSize>
-					<color>(220,198,160)</color>
-					<shadowData>
-						<volume>(0.25, 0.3, 0.25)</volume>
-						<offset>(0,0,-0.15)</offset>
-					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Labrador/Dessicated_Labrador</texPath>
+					<texPath>Things/Pawn/Animal/FloranRoot/Kibblebaka/Dessicated_Kibblebaka</texPath>
 					<drawSize>1.35</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Labrador/Labrador</texPath>
+					<texPath>Things/Pawn/Animal/FloranRoot/Kibblebaka/Kibblebaka</texPath>
 					<drawSize>1.6</drawSize>
-					<color>(220,198,160)</color>
-					<shadowData>
-						<volume>(0.3, 0.4, 0.3)</volume>
-						<offset>(0,0,-0.15)</offset>
-					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Labrador/Dessicated_Labrador</texPath>
+					<texPath>Things/Pawn/Animal/FloranRoot/Kibblebaka/Dessicated_Kibblebaka</texPath>
 					<drawSize>1.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
 	</PawnKindDef>
 	
-	<!--__________________________________________________berryffalo__________________________________________________-->
+	<!--__________________________________________________Berryffalo  maize bison__________________________________________________-->
 	
+		<ThingDef ParentName="AnimalFloranBase">
+			<defName>MaizeBison</defName>
+			<label>Maize Bison</label>
+			<description>A er got changed.</description>
+			<statBases>
+				<MoveSpeed>2</MoveSpeed>
+				<MarketValue>4000</MarketValue>
+				<ComfyTemperatureMin>-155</ComfyTemperatureMin>
+				<ComfyTemperatureMax>240</ComfyTemperatureMax>
+				<FilthRate>60</FilthRate>
+			</statBases>
+			<uiIconScale>1.35</uiIconScale>
+			<comps>
+				 <li Class="CompProperties_EggLayer">
+			  <eggFertilizedDef>MaizeBisonEgg</eggFertilizedDef>
+			  <eggFertilizationCountMax>1</eggFertilizationCountMax>
+			  <eggLayIntervalDays>16</eggLayIntervalDays>
+			  <eggProgressUnfertilizedMax>0.9</eggProgressUnfertilizedMax>
+			  <eggCountRange>1~2</eggCountRange>
+		  </li>
+			</comps>
+			<race>
+				<herdAnimal>true</herdAnimal>
+				<body>QuadrupedFloranWithHooves</body>
+				<baseBodySize>5</baseBodySize>
+				<baseHealthScale>30</baseHealthScale>
+				<baseHungerRate>2</baseHungerRate>
+				<gestationPeriodDays>6.66</gestationPeriodDays>
+				<wildness>1</wildness>
+				<lifeExpectancy>150</lifeExpectancy>
+				<roamMtbDays>1</roamMtbDays>
+				<mateMtbHours>20</mateMtbHours>
+				<lifeStageAges>
+					<li>
+						<def>AnimalBaby</def>
+						<minAge>0</minAge>
+					</li>
+					<li>
+						<def>AnimalJuvenile</def>
+						<minAge>0.25</minAge>
+					</li>
+					<li>
+						<def>AnimalAdult</def>
+						<minAge>0.3333</minAge>
+						<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+						<soundDeath>Pawn_Muffalo_Death</soundDeath>
+						<soundCall>Pawn_Muffalo_Call</soundCall>
+						<soundAngry>Pawn_Muffalo_Angry</soundAngry>
+					</li>
+				</lifeStageAges>
+				<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+				<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+				<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+				<headPosPerRotation>
+					<li>(0.0, 0, 0.05)</li>
+					<li>(0.285, 0, 0.02)</li>
+					<li>(0.0, 0, -0.12)</li>
+					<li>(-0.285, 0, 0.02)</li>
+				</headPosPerRotation>
+			</race>
+			
+		<modExtensions>
+		<li Class="CustomButcherFramework.CustomButcherExtension">
+			<customButcherProducts>
+				<RawBerries>350</RawBerries>
+			</customButcherProducts>
+		<productFluctuation>
+        <li>50</li>
+      </productFluctuation>
+			</li>
+	</modExtensions>
+   <tradeTags>
+      <li>AnimalUncommon</li>
+    </tradeTags>
+			<tools>
+				<li>
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>35</power>
+					<cooldownTime>3</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				</li>
+				<li>
+					<label>left hoof</label>
+					<capacities>
+						<li>Blunt</li>
+						<li>Poke</li>
+						</capacities>
+					<power>20</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+				</li>
+				<li>
+					<label>right hoof</label>
+					<capacities>
+						<li>Blunt</li>
+						<li>Poke</li>
+					</capacities>
+					<power>20</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+				</li>
+				<li>
+					<capacities>
+						<li>Bite</li>
+					</capacities>
+					<power>25</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<chanceFactor>0.5</chanceFactor>
+				</li>
+			</tools>
+	</ThingDef>
 
+	<PawnKindDef ParentName="AnimalKindBase" Name="Muffalo"><!--Name="Berryffalo"-->
+		<defName>MaizeBison</defName>
+		<label>Maize Bison</label>
+		<race>MaizeBison</race>
+		<combatPower>2000</combatPower>
+		<ecoSystemWeight>2</ecoSystemWeight>
+		<wildGroupSize>2~4</wildGroupSize>
+	<lifeStages>
+	<li>
+		<label>Maize Bison calf</label>
+		<labelPlural>Maize Bison</labelPlural>
+		<bodyGraphicData>
+			<texPath>Things/Pawn/Animal/Muffalo/Muffalo</texPath>
+			<drawSize>2</drawSize>
+			</bodyGraphicData>
+		<dessicatedBodyGraphicData>
+			<texPath>Things/Pawn/Animal/Muffalo/Dessicated_Muffalo</texPath>
+			<drawSize>2</drawSize>
+		</dessicatedBodyGraphicData>
+	</li>
+		<li>
+		<bodyGraphicData>
+			<texPath>Things/Pawn/Animal/Muffalo/Muffalo</texPath>
+			<drawSize>3</drawSize>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/Muffalo/Dessicated_Muffalo</texPath>
+				<drawSize>3</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/Muffalo/Muffalo</texPath>
+				<drawSize>4</drawSize>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/Muffalo/Dessicated_Muffalo</texPath>
+				<drawSize>4</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+	</lifeStages>
+</PawnKindDef>
 	<!--__________________________________________________Cococow__________________________________________________-->
-milk/not eg
+
+	<ThingDef ParentName="AnimalThingBase">
+	<defName>ShokoCow_FR</defName>
+	<label>Chocolate Cow</label>
+	<description>A large domesticated ungulate, cows have been bred for millennia to produce huge amounts of milk, meat, and leather. They are exceptionally gentle creatures and will never seek revenge, no matter how many times they are harmed. Most of them are so adapted to farm life that they cannot survive in the wild.</description>
+		<statBases>
+			<MoveSpeed>2.2</MoveSpeed>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<MarketValue>800</MarketValue>
+			<FilthRate>16</FilthRate>
+			</statBases>
+		<comps>
+			<li Class="CompProperties_Milkable">
+				<milkDef>ChokoMilk_fr</milkDef>
+				<milkIntervalDays>2</milkIntervalDays>
+				<milkAmount>14</milkAmount>
+				</li>
+			</comps>
+		<race>
+			<body>QuadrupedAnimalWithHooves</body>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>2.4</baseBodySize>
+			<baseHungerRate>0.535</baseHungerRate>
+			<baseHealthScale>1.5</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<leatherDef>Leather_Plain</leatherDef>
+			<wildness>0</wildness>
+			<roamMtbDays>2</roamMtbDays>
+			<trainability>None</trainability>
+			<meatLabel>beef</meatLabel>
+			<gestationPeriodDays>6.66</gestationPeriodDays>
+			<lifeExpectancy>8</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+					</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.20</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3333</minAge>
+					<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+					<soundDeath>Pawn_Muffalo_Death</soundDeath>
+					<soundCall>Pawn_Muffalo_Call</soundCall>
+					<soundAngry>Pawn_Muffalo_Angry</soundAngry>
+				</li>
+				</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+			<headPosPerRotation>
+				<li>(0.0, 0, 0.09)</li>
+				<li>(0.28, 0, 0)</li>
+				<li>(0.0, 0, -0.04)</li>
+				<li>(-0.28, 0, 0)</li>
+				</headPosPerRotation>
+			</race>
+		<tradeTags>
+			<li>AnimalCommon</li>
+			<li>AnimalFarm</li>
+		</tradeTags>
+			<tools>
+				<li>
+					<capacities>
+						<li>Bite</li>
+						</capacities>
+					<power>8.8</power>
+					<cooldownTime>2.6</cooldownTime>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<chanceFactor>0.7</chanceFactor>
+				</li>
+				<li>
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>7</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.2</chanceFactor>
+					</li>
+				<li>
+					<label>left hoof</label>
+						<capacities>
+							<li>Blunt</li>
+							<li>Poke</li>
+						</capacities>
+					<power>8</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+				</li>
+				<li>
+					<label>right hoof</label>
+					<capacities>
+						<li>Blunt</li>
+						<li>Poke</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+				</li>
+					</tools>
+						</ThingDef>
+	
+	
+							<PawnKindDef ParentName="AnimalKindBase">
+								<defName>ShokoCow_FR</defName>
+								<label>Choko Cow</label>
+								<labelMale>bull</labelMale>
+								<race>Cow</race>
+								<combatPower>75</combatPower>
+								<ecoSystemWeight>1.1</ecoSystemWeight>
+								<wildGroupSize>3~7</wildGroupSize>
+								<lifeStages>
+									<li>
+										<label>calf</label>
+										<labelPlural>calves</labelPlural>
+										<bodyGraphicData>
+											<texPath>Things/Pawn/Animal/Cow/Bull</texPath>
+											<drawSize>1.3</drawSize>
+											<color>(91,58,41)</color>
+										</bodyGraphicData>
+										<femaleGraphicData>
+											<texPath>Things/Pawn/Animal/Cow/Cow</texPath>
+											<drawSize>1.25</drawSize>
+											<color>(59,39,16)</color>
+											</femaleGraphicData>
+										<dessicatedBodyGraphicData>
+											<texPath>Things/Pawn/Animal/Cow/Dessicated_Bull</texPath>
+											<drawSize>1.3</drawSize>
+										</dessicatedBodyGraphicData>
+										<femaleDessicatedBodyGraphicData>
+											<texPath>Things/Pawn/Animal/Cow/Dessicated_Cow</texPath>
+											<drawSize>1.25</drawSize>
+										</femaleDessicatedBodyGraphicData>
+									</li>
+									<li>
+										<bodyGraphicData>
+											<texPath>Things/Pawn/Animal/Cow/Bull</texPath>
+											<drawSize>2.15</drawSize>
+											<color>(91,58,41)</color>
+										</bodyGraphicData>
+										<femaleGraphicData>
+											<texPath>Things/Pawn/Animal/Cow/Cow</texPath>
+											<drawSize>2.0</drawSize>
+											<color>(59,39,16)</color>
+											</femaleGraphicData>
+										<dessicatedBodyGraphicData>
+											<texPath>Things/Pawn/Animal/Cow/Dessicated_Bull</texPath>
+											<drawSize>2.15</drawSize>
+											</dessicatedBodyGraphicData>
+										<femaleDessicatedBodyGraphicData>
+											<texPath>Things/Pawn/Animal/Cow/Dessicated_Cow</texPath>
+											<drawSize>2.0</drawSize>
+											</femaleDessicatedBodyGraphicData>
+									</li>
+									<li>
+										<bodyGraphicData>
+											<texPath>Things/Pawn/Animal/Cow/Bull</texPath>
+											<drawSize>2.7</drawSize>
+											<color>(91,58,41)</color>
+										</bodyGraphicData>
+										<femaleGraphicData>
+											<texPath>Things/Pawn/Animal/Cow/Cow</texPath>
+											<drawSize>2.6</drawSize>
+											<color>(59,39,16)</color>
+										</femaleGraphicData>
+											<dessicatedBodyGraphicData>
+												<texPath>Things/Pawn/Animal/Cow/Dessicated_Bull</texPath>
+												<drawSize>2.7</drawSize>
+										</dessicatedBodyGraphicData>
+										<femaleDessicatedBodyGraphicData>
+											<texPath>Things/Pawn/Animal/Cow/Dessicated_Cow</texPath>
+											<drawSize>2.6</drawSize>
+										</femaleDessicatedBodyGraphicData>
+									</li>
+								</lifeStages>
+							</PawnKindDef>
 </Defs>
