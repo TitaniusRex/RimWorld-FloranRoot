@@ -112,13 +112,13 @@
 	<!-- Berryffalo -->
 
     <ThingDef ParentName="EggFertAvesome">
-		<defName>BerryffaloEgg</defName>
-	    <label>Berryffalo grain</label>
+		<defName>MaizeBisonEgg</defName>
+	    <label>Maize Bison grain</label>
 		<description>A fertilized cobra egg. If all goes well, it should hatch into a baby cobra. It can be eaten raw, but it's much better cooked.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/FloranEgg</texPath>
-			<color>(116, 66, 200)</color>
+			<color>(216, 166, 300)</color>
 			<drawSize>1</drawSize>
 		</graphicData>
 		<statBases>
@@ -132,10 +132,50 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>3</hatcherDaystoHatch>
-				<hatcherPawn>Berryffalo</hatcherPawn>
+				<hatcherDaystoHatch>8</hatcherDaystoHatch>
+				<hatcherPawn>MaizeBison</hatcherPawn>
 			</li>
 		</comps>
+	</ThingDef>
+
+
+	<!-- mimi -->
+
+
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>ChokoMilk_fr</defName>
+		<label>Chocolate Milk</label>
+		<description>Milk from an animal.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/CMilk/Chokomilk</texPath>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MarketValue>5</MarketValue>
+			<Mass>0.045</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+			<Nutrition>0.35</Nutrition>
+			<FoodPoisonChanceFixedHuman>0</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>14</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<foodType>AnimalProduct, Fluid, Processed</foodType>
+			<babiesCanIngest>true</babiesCanIngest>
+			<joy>0.30</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+		<allowedArchonexusCount>180</allowedArchonexusCount>
 	</ThingDef>
   
 </Defs>
