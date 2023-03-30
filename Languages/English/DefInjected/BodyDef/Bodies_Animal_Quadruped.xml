@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+ 
+	<FloranMonkey.label>monkey</FloranMonkey.label>
+
+	<FloranMonkey.corePart.parts.left_clavicle.customLabel>left clavicle</FloranMonkey.corePart.parts.left_clavicle.customLabel>
+
+	<FloranMonkey.corePart.parts.right_clavicle.customLabel>right clavicle</FloranMonkey.corePart.parts.right_clavicle.customLabel>
+
+	<FloranMonkey.corePart.parts.left_lung.customLabel>left lung</FloranMonkey.corePart.parts.left_lung.customLabel>
+
+	<FloranMonkey.corePart.parts.right_lung.customLabel>right lung</FloranMonkey.corePart.parts.right_lung.customLabel>
+
+	<FloranMonkey.corePart.parts.left_kidney.customLabel>left kidney</FloranMonkey.corePart.parts.left_kidney.customLabel>
+
+	<FloranMonkey.corePart.parts.right_kidney.customLabel>right kidney</FloranMonkey.corePart.parts.right_kidney.customLabel>
+
+	<FloranMonkey.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>left eye</FloranMonkey.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+
+	<FloranMonkey.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>right eye</FloranMonkey.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+
+	<FloranMonkey.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>left ear</FloranMonkey.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+
+	<FloranMonkey.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>right ear</FloranMonkey.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+
+	<FloranMonkey.corePart.parts.left_shoulder.customLabel>left shoulder</FloranMonkey.corePart.parts.left_shoulder.customLabel>
+  
+	<FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.customLabel>left arm</FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+  
+	<FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>left humerus</FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>
+  
+	<FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>left radius</FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>
+  
+	<FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>left hand</FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>
+  
+	<FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>left pinky</FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>
+  
+	<FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>left ring finger</FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>
+  
+	<FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>left middle finger</FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>
+  
+	<FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>left index finger</FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>
+  
+	<FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>left thumb</FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>
+  
+	<FloranMonkey.corePart.parts.right_shoulder.customLabel>right shoulder</FloranMonkey.corePart.parts.right_shoulder.customLabel>
+  
+	<FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.customLabel>right arm</FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.customLabel>
+  
+	<FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>right humerus</FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>
+  
+	<FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>right radius</FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>
+  
+	<FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>right hand</FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>
+  
+	<FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>right pinky</FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>
+  
+	<FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>right ring finger</FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>
+  
+	<FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>right middle finger</FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>
+  
+	<FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>right index finger</FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>
+  
+	<FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>right thumb</FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>
+  
+		<FloranMonkey.corePart.parts.left_leg.customLabel>left leg</FloranMonkey.corePart.parts.left_leg.customLabel>
+  
+	<FloranMonkey.corePart.parts.left_leg.parts.left_femur.customLabel>left femur</FloranMonkey.corePart.parts.left_leg.parts.left_femur.customLabel>
+  
+		<FloranMonkey.corePart.parts.left_leg.parts.left_tibia.customLabel>left tibia</FloranMonkey.corePart.parts.left_leg.parts.left_tibia.customLabel>
+  
+	  <FloranMonkey.corePart.parts.left_leg.parts.left_foot.customLabel>left foot</FloranMonkey.corePart.parts.left_leg.parts.left_foot.customLabel>
+ 
+	  <FloranMonkey.corePart.parts.left_leg.parts.left_foot.parts.left_little_toe.customLabel>left little toe</FloranMonkey.corePart.parts.left_leg.parts.left_foot.parts.left_little_toe.customLabel>
+  
+	  <FloranMonkey.corePart.parts.left_leg.parts.left_foot.parts.left_fourth_toe.customLabel>left fourth toe</FloranMonkey.corePart.parts.left_leg.parts.left_foot.parts.left_fourth_toe.customLabel>
+  
+	  <FloranMonkey.corePart.parts.left_leg.parts.left_foot.parts.left_middle_toe.customLabel>left middle toe</FloranMonkey.corePart.parts.left_leg.parts.left_foot.parts.left_middle_toe.customLabel>
+  
+	  <FloranMonkey.corePart.parts.left_leg.parts.left_foot.parts.left_second_toe.customLabel>left second toe</FloranMonkey.corePart.parts.left_leg.parts.left_foot.parts.left_second_toe.customLabel>
+  
+	  <FloranMonkey.corePart.parts.left_leg.parts.left_foot.parts.left_big_toe.customLabel>left big toe</FloranMonkey.corePart.parts.left_leg.parts.left_foot.parts.left_big_toe.customLabel>
+  
+	  <FloranMonkey.corePart.parts.right_leg.customLabel>right leg</FloranMonkey.corePart.parts.right_leg.customLabel>
+  
+	  <FloranMonkey.corePart.parts.right_leg.parts.right_femur.customLabel>right femur</FloranMonkey.corePart.parts.right_leg.parts.right_femur.customLabel>
+  
+	  <FloranMonkey.corePart.parts.right_leg.parts.right_tibia.customLabel>right tibia</FloranMonkey.corePart.parts.right_leg.parts.right_tibia.customLabel>
+  
+	  <FloranMonkey.corePart.parts.right_leg.parts.right_foot.customLabel>right foot</FloranMonkey.corePart.parts.right_leg.parts.right_foot.customLabel>
+  
+	  <FloranMonkey.corePart.parts.right_leg.parts.right_foot.parts.right_little_toe.customLabel>right little toe</FloranMonkey.corePart.parts.right_leg.parts.right_foot.parts.right_little_toe.customLabel>
+  
+	  <FloranMonkey.corePart.parts.right_leg.parts.right_foot.parts.right_fourth_toe.customLabel>right fourth toe</FloranMonkey.corePart.parts.right_leg.parts.right_foot.parts.right_fourth_toe.customLabel>
+  
+	  <FloranMonkey.corePart.parts.right_leg.parts.right_foot.parts.right_middle_toe.customLabel>right middle toe</FloranMonkey.corePart.parts.right_leg.parts.right_foot.parts.right_middle_toe.customLabel>
+  
+	  <FloranMonkey.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>right second toe</FloranMonkey.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>
+  
+	  <FloranMonkey.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>right big toe</FloranMonkey.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>
+  
+	
+  
+	<QuadrupedFloranWithHooves.label>quadruped animal</QuadrupedFloranWithHooves.label>
+  
+	<QuadrupedFloranWithHooves.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>left eye</QuadrupedFloranWithHooves.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+  
+	<QuadrupedFloranWithHooves.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>right eye</QuadrupedFloranWithHooves.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+  
+	<QuadrupedFloranWithHooves.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>left ear</QuadrupedFloranWithHooves.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  
+	<QuadrupedFloranWithHooves.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>right ear</QuadrupedFloranWithHooves.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  
+	<QuadrupedFloranWithHooves.corePart.parts.front_left_leg.customLabel>front left leg</QuadrupedFloranWithHooves.corePart.parts.front_left_leg.customLabel>
+  
+	<QuadrupedFloranWithHooves.corePart.parts.front_left_leg.parts.front_left_hoof.customLabel>front left hoof</QuadrupedFloranWithHooves.corePart.parts.front_left_leg.parts.front_left_hoof.customLabel>
+  
+	<QuadrupedFloranWithHooves.corePart.parts.front_right_leg.customLabel>front right leg</QuadrupedFloranWithHooves.corePart.parts.front_right_leg.customLabel>
+  
+	<QuadrupedFloranWithHooves.corePart.parts.front_right_leg.parts.front_right_hoof.customLabel>front right hoof</QuadrupedFloranWithHooves.corePart.parts.front_right_leg.parts.front_right_hoof.customLabel>
+  
+	<QuadrupedFloranWithHooves.corePart.parts.rear_left_leg.customLabel>rear left leg</QuadrupedFloranWithHooves.corePart.parts.rear_left_leg.customLabel>
+  
+	<QuadrupedFloranWithHooves.corePart.parts.rear_left_leg.parts.rear_left_hoof.customLabel>rear left hoof</QuadrupedFloranWithHooves.corePart.parts.rear_left_leg.parts.rear_left_hoof.customLabel>
+  
+	<QuadrupedFloranWithHooves.corePart.parts.rear_right_leg.customLabel>rear right leg</QuadrupedFloranWithHooves.corePart.parts.rear_right_leg.customLabel>
+  
+	<QuadrupedFloranWithHooves.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>rear right hoof</QuadrupedFloranWithHooves.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>
+  
+	
+  
+	<QuadrupedFloranWithPawsAndTail.label>quadruped animal</QuadrupedFloranWithPawsAndTail.label>
+  
+	<QuadrupedFloranWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>left eye</QuadrupedFloranWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+  
+	<QuadrupedFloranWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>right eye</QuadrupedFloranWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+  
+	<QuadrupedFloranWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>left ear</QuadrupedFloranWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  
+	<QuadrupedFloranWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>right ear</QuadrupedFloranWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  
+	<QuadrupedFloranWithPawsAndTail.corePart.parts.front_left_leg.customLabel>front left leg</QuadrupedFloranWithPawsAndTail.corePart.parts.front_left_leg.customLabel>
+  
+	 <QuadrupedFloranWithPawsAndTail.corePart.parts.front_left_leg.parts.front_left_paw.customLabel>front left paw</QuadrupedFloranWithPawsAndTail.corePart.parts.front_left_leg.parts.front_left_paw.customLabel>
+  
+	 <QuadrupedFloranWithPawsAndTail.corePart.parts.front_right_leg.customLabel>front right leg</QuadrupedFloranWithPawsAndTail.corePart.parts.front_right_leg.customLabel>
+  
+	 <QuadrupedFloranWithPawsAndTail.corePart.parts.front_right_leg.parts.front_right_paw.customLabel>front right paw</QuadrupedFloranWithPawsAndTail.corePart.parts.front_right_leg.parts.front_right_paw.customLabel>
+  
+	 <QuadrupedFloranWithPawsAndTail.corePart.parts.rear_left_leg.customLabel>rear left leg</QuadrupedFloranWithPawsAndTail.corePart.parts.rear_left_leg.customLabel>
+  
+	 <QuadrupedFloranWithPawsAndTail.corePart.parts.rear_left_leg.parts.rear_left_paw.customLabel>rear left paw</QuadrupedFloranWithPawsAndTail.corePart.parts.rear_left_leg.parts.rear_left_paw.customLabel>
+  
+	 <QuadrupedFloranWithPawsAndTail.corePart.parts.rear_right_leg.customLabel>rear right leg</QuadrupedFloranWithPawsAndTail.corePart.parts.rear_right_leg.customLabel>
+  
+	 <QuadrupedFloranWithPawsAndTail.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</QuadrupedFloranWithPawsAndTail.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
+
+
+</LanguageData>

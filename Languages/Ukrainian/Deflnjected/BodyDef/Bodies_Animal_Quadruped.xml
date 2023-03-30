@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: monkey -->
+	<FloranMonkey.label>мавпа</FloranMonkey.label>
+  <!-- EN: left clavicle -->
+	<FloranMonkey.corePart.parts.left_clavicle.customLabel>ліва ключиця</FloranMonkey.corePart.parts.left_clavicle.customLabel>
+  <!-- EN: right clavicle -->
+	<FloranMonkey.corePart.parts.right_clavicle.customLabel>права ключиця</FloranMonkey.corePart.parts.right_clavicle.customLabel>
+	<!-- EN: left lung -->
+	<FloranMonkey.corePart.parts.left_lung.customLabel>ліва легеня</FloranMonkey.corePart.parts.left_lung.customLabel>
+  <!-- EN: right lung -->
+	  <FloranMonkey.corePart.parts.right_lung.customLabel>права легеня</FloranMonkey.corePart.parts.right_lung.customLabel>
+  <!-- EN: left kidney -->
+	  <FloranMonkey.corePart.parts.left_kidney.customLabel>ліва нирка</FloranMonkey.corePart.parts.left_kidney.customLabel>
+  <!-- EN: right kidney -->
+	  <FloranMonkey.corePart.parts.right_kidney.customLabel>права нирка</FloranMonkey.corePart.parts.right_kidney.customLabel>
+  <!-- EN: left eye -->
+	  <FloranMonkey.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>ліве око</FloranMonkey.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+  <!-- EN: right eye -->
+	  <FloranMonkey.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>праве око</FloranMonkey.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+  <!-- EN: left ear -->
+	  <FloranMonkey.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>ліве вухо</FloranMonkey.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <!-- EN: right ear -->
+	  <FloranMonkey.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>праве вухо</FloranMonkey.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <!-- EN: left shoulder -->
+	  <FloranMonkey.corePart.parts.left_shoulder.customLabel>ліве плече</FloranMonkey.corePart.parts.left_shoulder.customLabel>
+  <!-- EN: left arm -->
+	  <FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.customLabel>ліва рука</FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+  <!-- EN: left humerus -->
+	  <FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>ліва плечова кістка</FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>
+  <!-- EN: left radius -->
+	  <FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>ліва променева кістка</FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>
+  <!-- EN: left hand -->
+	  <FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>ліва долоня</FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>
+  <!-- EN: left pinky -->
+	  <FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>мізинець лівої руки</FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>
+  <!-- EN: left ring finger -->
+	  <FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>підмізинний палець лівої руки</FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>
+  <!-- EN: left middle finger -->
+	  <FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>середній палець лівої руки</FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>
+  <!-- EN: left index finger -->
+	  <FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>вказівний палець лівої руки</FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>
+  <!-- EN: left thumb -->
+	  <FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>великий палець лівої руки</FloranMonkey.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>
+  <!-- EN: right shoulder -->
+	  <FloranMonkey.corePart.parts.right_shoulder.customLabel>праве плече</FloranMonkey.corePart.parts.right_shoulder.customLabel>
+  <!-- EN: right arm -->
+	  <FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.customLabel>права рука</FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.customLabel>
+  <!-- EN: right humerus -->
+	  <FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>права плечова кістка</FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>
+  <!-- EN: right radius -->
+	  <FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>права променева кістка</FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>
+	  <!-- EN: right hand -->
+	  <FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>права долоня</FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>
+  <!-- EN: right pinky -->
+	  <FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>мізинець правої руки</FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>
+  <!-- EN: right ring finger -->
+	  <FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>підмізинний палець правої руки</FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>
+  <!-- EN: right middle finger -->
+	  <FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>середній палець правої руки</FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>
+  <!-- EN: right index finger -->
+	  <FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>вказівний палець правої руки</FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>
+  <!-- EN: right thumb -->
+	  <FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>великий палець правої руки</FloranMonkey.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>
+  <!-- EN: left leg -->
+	  <FloranMonkey.corePart.parts.left_leg.customLabel>ліва нога</FloranMonkey.corePart.parts.left_leg.customLabel>
+  <!-- EN: left femur -->
+	  <FloranMonkey.corePart.parts.left_leg.parts.left_femur.customLabel>ліве стегно</FloranMonkey.corePart.parts.left_leg.parts.left_femur.customLabel>
+  <!-- EN: left tibia -->
+	  <FloranMonkey.corePart.parts.left_leg.parts.left_tibia.customLabel>ліва гомілка</FloranMonkey.corePart.parts.left_leg.parts.left_tibia.customLabel>
+  <!-- EN: left foot -->
+	  <FloranMonkey.corePart.parts.left_leg.parts.left_foot.customLabel>ліва ступня</FloranMonkey.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <!-- EN: left little toe -->
+	  <FloranMonkey.corePart.parts.left_leg.parts.left_foot.parts.left_little_toe.customLabel>мізинець лівої ноги</FloranMonkey.corePart.parts.left_leg.parts.left_foot.parts.left_little_toe.customLabel>
+  <!-- EN: left fourth toe -->
+	  <FloranMonkey.corePart.parts.left_leg.parts.left_foot.parts.left_fourth_toe.customLabel>четвертий палець лівої ноги</FloranMonkey.corePart.parts.left_leg.parts.left_foot.parts.left_fourth_toe.customLabel>
+  <!-- EN: left middle toe -->
+	  <FloranMonkey.corePart.parts.left_leg.parts.left_foot.parts.left_middle_toe.customLabel>середній палець лівої ноги</FloranMonkey.corePart.parts.left_leg.parts.left_foot.parts.left_middle_toe.customLabel>
+  <!-- EN: left second toe -->
+  <FloranMonkey.corePart.parts.left_leg.parts.left_foot.parts.left_second_toe.customLabel>другий палець лівої ноги</FloranMonkey.corePart.parts.left_leg.parts.left_foot.parts.left_second_toe.customLabel>
+  <!-- EN: left big toe -->
+	  <FloranMonkey.corePart.parts.left_leg.parts.left_foot.parts.left_big_toe.customLabel>великий палець лівої ноги</FloranMonkey.corePart.parts.left_leg.parts.left_foot.parts.left_big_toe.customLabel>
+  <!-- EN: right leg -->
+	  <FloranMonkey.corePart.parts.right_leg.customLabel>права нога</FloranMonkey.corePart.parts.right_leg.customLabel>
+  <!-- EN: right femur -->
+	  <FloranMonkey.corePart.parts.right_leg.parts.right_femur.customLabel>праве стегно</FloranMonkey.corePart.parts.right_leg.parts.right_femur.customLabel>
+  <!-- EN: right tibia -->
+	  <FloranMonkey.corePart.parts.right_leg.parts.right_tibia.customLabel>права гомілка</FloranMonkey.corePart.parts.right_leg.parts.right_tibia.customLabel>
+  <!-- EN: right foot -->
+	  <FloranMonkey.corePart.parts.right_leg.parts.right_foot.customLabel>права ступня</FloranMonkey.corePart.parts.right_leg.parts.right_foot.customLabel>
+  <!-- EN: right little toe -->
+	  <FloranMonkey.corePart.parts.right_leg.parts.right_foot.parts.right_little_toe.customLabel>мізинець правої ноги</FloranMonkey.corePart.parts.right_leg.parts.right_foot.parts.right_little_toe.customLabel>
+  <!-- EN: right fourth toe -->
+	  <FloranMonkey.corePart.parts.right_leg.parts.right_foot.parts.right_fourth_toe.customLabel>четвертий палець правої ноги</FloranMonkey.corePart.parts.right_leg.parts.right_foot.parts.right_fourth_toe.customLabel>
+  <!-- EN: right middle toe -->
+	  <FloranMonkey.corePart.parts.right_leg.parts.right_foot.parts.right_middle_toe.customLabel>середній палець правої ноги</FloranMonkey.corePart.parts.right_leg.parts.right_foot.parts.right_middle_toe.customLabel>
+  <!-- EN: right second toe -->
+	  <FloranMonkey.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>другий палець правої ноги</FloranMonkey.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>
+  <!-- EN: right big toe -->
+	  <FloranMonkey.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>великий палець правої ноги</FloranMonkey.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>
+  
+	
+  <!-- EN: quadruped animal -->
+	<QuadrupedFloranWithHooves.label>парнокопитна тварина</QuadrupedFloranWithHooves.label>
+  <!-- EN: left eye -->
+	<QuadrupedFloranWithHooves.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>ліве око</QuadrupedFloranWithHooves.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+  <!-- EN: right eye -->
+	  <QuadrupedFloranWithHooves.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>праве око</QuadrupedFloranWithHooves.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+  <!-- EN: left ear -->
+	  <QuadrupedFloranWithHooves.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>ліве вухо</QuadrupedFloranWithHooves.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <!-- EN: right ear -->
+	  <QuadrupedFloranWithHooves.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>праве вухо</QuadrupedFloranWithHooves.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <!-- EN: front left leg -->
+	  <QuadrupedFloranWithHooves.corePart.parts.front_left_leg.customLabel>передня ліва нога</QuadrupedFloranWithHooves.corePart.parts.front_left_leg.customLabel>
+  <!-- EN: front left hoof -->
+	  <QuadrupedFloranWithHooves.corePart.parts.front_left_leg.parts.front_left_hoof.customLabel>переднє ліве копито</QuadrupedFloranWithHooves.corePart.parts.front_left_leg.parts.front_left_hoof.customLabel>
+  <!-- EN: front right leg -->
+	  <QuadrupedFloranWithHooves.corePart.parts.front_right_leg.customLabel>передня права нога</QuadrupedFloranWithHooves.corePart.parts.front_right_leg.customLabel>
+  <!-- EN: front right hoof -->
+	  <QuadrupedFloranWithHooves.corePart.parts.front_right_leg.parts.front_right_hoof.customLabel>переднє праве копито</QuadrupedFloranWithHooves.corePart.parts.front_right_leg.parts.front_right_hoof.customLabel>
+  <!-- EN: rear left leg -->
+	  <QuadrupedFloranWithHooves.corePart.parts.rear_left_leg.customLabel>задня ліва нога</QuadrupedFloranWithHooves.corePart.parts.rear_left_leg.customLabel>
+  <!-- EN: rear left hoof -->
+	  <QuadrupedFloranWithHooves.corePart.parts.rear_left_leg.parts.rear_left_hoof.customLabel>заднє ліве копито</QuadrupedFloranWithHooves.corePart.parts.rear_left_leg.parts.rear_left_hoof.customLabel>
+  <!-- EN: rear right leg -->
+	  <QuadrupedFloranWithHooves.corePart.parts.rear_right_leg.customLabel>задня права нога</QuadrupedFloranWithHooves.corePart.parts.rear_right_leg.customLabel>
+  <!-- EN: rear right hoof -->
+	  <QuadrupedFloranWithHooves.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>заднє праве копито</QuadrupedFloranWithHooves.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>
+  
+  <!-- EN: quadruped animal -->
+	<QuadrupedFloranWithPawsAndTail.label>чотирилапа тварина з хвостом</QuadrupedFloranWithPawsAndTail.label>
+  <!-- EN: left eye -->
+	  <QuadrupedFloranWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>ліве око</QuadrupedFloranWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+  <!-- EN: right eye -->
+	  <QuadrupedFloranWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>праве око</QuadrupedFloranWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+  <!-- EN: left ear -->
+	  <QuadrupedFloranWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>ліве вухо</QuadrupedFloranWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <!-- EN: right ear -->
+	  <QuadrupedFloranWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>праве вухо</QuadrupedFloranWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <!-- EN: front left leg -->
+	  <QuadrupedFloranWithPawsAndTail.corePart.parts.front_left_leg.customLabel>передня ліва нога</QuadrupedFloranWithPawsAndTail.corePart.parts.front_left_leg.customLabel>
+  <!-- EN: front left paw -->
+	  <QuadrupedFloranWithPawsAndTail.corePart.parts.front_left_leg.parts.front_left_paw.customLabel>передня ліва лапа</QuadrupedFloranWithPawsAndTail.corePart.parts.front_left_leg.parts.front_left_paw.customLabel>
+  <!-- EN: front right leg -->
+	  <QuadrupedFloranWithPawsAndTail.corePart.parts.front_right_leg.customLabel>передня права нога</QuadrupedFloranWithPawsAndTail.corePart.parts.front_right_leg.customLabel>
+  <!-- EN: front right paw -->
+	  <QuadrupedFloranWithPawsAndTail.corePart.parts.front_right_leg.parts.front_right_paw.customLabel>передня права лапа</QuadrupedFloranWithPawsAndTail.corePart.parts.front_right_leg.parts.front_right_paw.customLabel>
+  <!-- EN: rear left leg -->
+	  <QuadrupedFloranWithPawsAndTail.corePart.parts.rear_left_leg.customLabel>задня ліва нога</QuadrupedFloranWithPawsAndTail.corePart.parts.rear_left_leg.customLabel>
+  <!-- EN: rear left paw -->
+	  <QuadrupedFloranWithPawsAndTail.corePart.parts.rear_left_leg.parts.rear_left_paw.customLabel>задня ліва лапа</QuadrupedFloranWithPawsAndTail.corePart.parts.rear_left_leg.parts.rear_left_paw.customLabel>
+  <!-- EN: rear right leg -->
+	  <QuadrupedFloranWithPawsAndTail.corePart.parts.rear_right_leg.customLabel>задня права нога</QuadrupedFloranWithPawsAndTail.corePart.parts.rear_right_leg.customLabel>
+  <!-- EN: rear right paw -->
+	  <QuadrupedFloranWithPawsAndTail.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>задня права лапа</QuadrupedFloranWithPawsAndTail.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LanguageData>

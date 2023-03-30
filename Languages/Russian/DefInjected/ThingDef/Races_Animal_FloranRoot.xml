@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<!--имя-->
+	<PotatoKing.label>Кошка Картошка</PotatoKing.label>
+	<PotatoKing.race>Кошка Картошка</PotatoKing.race>
+	<PotatoKing.label>Кошка Картошка</PotatoKing.label>
+	<PotatoKing.race>Кошка Картошка</PotatoKing.race>
+	<PotatoKing.description>бичь божий</PotatoKing.description>
+	<PotatoKing.lifeStages.label>Картафёнок</PotatoKing.lifeStages.label>
+	<PotatoKing.lifeStages.labelPlural>Картафята</PotatoKing.lifeStages.labelPlural>
+
+<!--=====================================-->
+
+	<Ricemonkey.label>Рисовая мартышка</Ricemonkey.label>
+
+	<Ricemonkey.description>бичь божий</Ricemonkey.description>
+
+
+	<Kibblebaka.label>сенопёс</Kibblebaka.label>
+
+	<Kibblebaka.description>бичь божий</Kibblebaka.description>
+
+
+	<MaizeBison.label>Маисовый Бизон</MaizeBison.label>
+
+	<MaizeBison.description>бичь божий</MaizeBison.description>
+
+
+
+	<BerriKapi.label>Ягодная Капи</BerriKapi.label>
+
+	<BerriKapi.description>бичь божий</BerriKapi.description>
+
+
+
+	<ChocoRat.label>чоео крыса</ChocoRat.label>
+	<ChocoRat.description>Образец ренней био инженерии. Более интелектуальна нежели обычный вид.</ChocoRat.description>
+
+
+	<JellyRat.label>желе крыса</JellyRat.label>
+
+	<JellyRat.description>Образец ренней био инженерии. Более интелектуальна нежели обычный вид.</JellyRat.description>
+
+
+	<FungusRat.label>крыса грибница</FungusRat.label>
+
+	<FungusRat.description>Образец ренней био инженерии. Более интелектуальна нежели обычный вид.</FungusRat.description>
+
+
+	<PitaRat.label>крыса алое</PitaRat.label>
+
+	<PitaRat.description>Образец ренней био инженерии. Более интелектуальна нежели обычный вид.</PitaRat.description>
+
+
+	<HopsRat.label>пиво крыса</HopsRat.label>
+
+	<HopsRat.description>Образец ренней био инженерии. Более интелектуальна нежели обычный вид.</HopsRat.description>
+
+
+</LanguageData>
