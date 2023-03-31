@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<IncidentDef>
+
+		<defName>FloranPasses</defName>
+
+		<label>Floran pass</label>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>IncidentWorker_FloranPasses</workerClass>
+		<baseChance>0.9</baseChance>
+		<minRefireDays>3</minRefireDays>
+	</IncidentDef>
+	
+	<!--<IncidentDef>
+
+		<defName>HerdMigration</defName>
+
+		<label>herd migration</label>
+
+		<category>Misc</category>
+
+
+		<targetTags>
+
+			<li>Map_PlayerHome</li>
+
+		</targetTags>
+
+
+		<allowedBiomes>
+
+			<li>SeaIce</li>
+
+			<li>IceSheet</li>
+
+			<li>Tundra</li>
+
+			<li>Desert</li>
+
+			<li>ExtremeDesert</li>
+
+		</allowedBiomes>
+
+		<workerClass>IncidentWorker_HerdMigration</workerClass>
+
+		<baseChance>1.0</baseChance>
+
+		<letterLabel>Animal migration: {0}</letterLabel>
+
+		<letterText>A group of {0} is passing through the area.\n\nThey won't attack unless provoked.</letterText>
+
+		<letterDef>NeutralEvent</letterDef>
+
+	</IncidentDef>
+	-->
+    
+
+</Defs>
