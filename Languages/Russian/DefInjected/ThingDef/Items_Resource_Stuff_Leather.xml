@@ -3,10 +3,10 @@
 <LanguageData>
 
 
-	<Leather_FloranGreen.label>Шкура Флоран</Leather_FloranGreen.label>
+	<Leather_FloranGreen.label>шкура Флоран</Leather_FloranGreen.label>
 
 	<Leather_FloranGreen.description>прочная шкура. не защищает от погодных условий.</Leather_FloranGreen.description>
-	
-	
+
+	<Leather_FloranGreen.stuffProps.stuffAdjective>шкур Флоран</Leather_FloranGreen.stuffProps.stuffAdjective>
 
 </LanguageData>
