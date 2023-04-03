@@ -5,30 +5,29 @@
 
 	<FR_PotatoKing.label>Король Картофель</FR_PotatoKing.label>
 	<FR_PotatoKing.labelFemale>Кошка Картошка</FR_PotatoKing.labelFemale>
-	<FR_PotatoKing.description>бичь божий</FR_PotatoKing.description>
+	<FR_PotatoKing.description>Величественные создания были выведены с использованием кода, продовольственного вида "картофель", который у многих народах считается "вторым хлебом". Опасны. Требуют не такого количества питательных веществ как иные виды. Разводить с осторожностью.</FR_PotatoKing.description>
 	<FR_PotatoKing.labelPlurals>Кошки Картошки</FR_PotatoKing.labelPlurals>
 	<FR_PotatoKing.lifeStages.0.label>Картафёнок</FR_PotatoKing.lifeStages.0.label>
 	<FR_PotatoKing.lifeStages.0.labelPlural>Картафята</FR_PotatoKing.lifeStages.0.labelPlural>
 	
 	
 	<FR_Ricemonkey.label>Рисовая мартышка</FR_Ricemonkey.label>
-	<FR_Ricemonkey.labelPlural>Хуяшки</FR_Ricemonkey.labelPlural>
-	<FR_Ricemonkey.description>бичь божий</FR_Ricemonkey.description>
+	<FR_Ricemonkey.description>Малорослые, быстрые, хитрые, плодовитые. Рост до максимального уровня происходит быстрее нежели у иных видов. В связи с малыми размерами не способны нанести серьёздного урона, но по одиночке. Опасны на самовыпасе. Рекомендуется устранять диких представителей, представляют серьёздную опасность как типичным представителям фауны так и местному населению.</FR_Ricemonkey.description>
 
 
-	<FR_Kibblebaka.label>сенопёс</FR_Kibblebaka.label>
-	<FR_Kibblebaka.description>frend божий</FR_Kibblebaka.description>
+	<FR_Kibblebaka.label>Сенопёс</FR_Kibblebaka.label>
+	<FR_Kibblebaka.description>Довольно удачный эксперемент. Высокообучаемые помошники в хозяйстве. Не подходят для охоты и охраны. Малый период жизни. Несмотря на возможную полезность, использовались как основа для комбикорма.</FR_Kibblebaka.description>
 
 	<FR_MaizeBison.label>Маисовый Бизон</FR_MaizeBison.label>
 	<FR_MaizeBison.labelPlurals>Маисовые Бизоны</FR_MaizeBison.labelPlurals>
-	<FR_MaizeBison.description>бичь божий</FR_MaizeBison.description>
+	<FR_MaizeBison.description>Крупногабаритные животные. Гибрид кукурузы и бизона. Длительный перион созревания. Опасны. Самый живучий образец.</FR_MaizeBison.description>
 	<FR_MaizeBison.lifeStages.0.label>Маисовый телёнок</FR_MaizeBison.lifeStages.0.label>
 	<FR_MaizeBison.lifeStages.0.labelPlural>Маисовые телята</FR_MaizeBison.lifeStages.0.labelPlural>
 
 
 	<FR_BerriKapi.label>Ягодная Капи</FR_BerriKapi.label>
 	<FR_BerriKapi.labelPlurals>Ягодные Капи</FR_BerriKapi.labelPlurals>
-	<FR_BerriKapi.description>бичь божий</FR_BerriKapi.description>
+	<FR_BerriKapi.description>Для удовлетворения потребностей знати были выведены животные в основе которых гены семейства жирафовых. К сожалению, как и другие образцы, не удалось добиться послушания. Так же представляют опасность.</FR_BerriKapi.description>
 	<FR_BerriKapi.lifeStages.0.label>Ягодный телёнок</FR_BerriKapi.lifeStages.0.label>
 	<FR_BerriKapi.lifeStages.0.labelPlural>Ягодные телята</FR_BerriKapi.lifeStages.0.labelPlural>
 
