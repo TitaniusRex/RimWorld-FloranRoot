@@ -5,7 +5,7 @@
 <ThingDef ParentName="AnimalThingBase" Name="ChocoRatThingBase">
 	<defName>FR_ChocoRat</defName>
 	<label>Choco Rat</label>
-	<description>It eats almost anything and lives almost anywhere.</description>
+	<description>Rat. More intelligent than the usual kind. A good friend but also a valuable resource.</description>
 	<statBases>
 		<MeatAmount>15</MeatAmount>
 		<MoveSpeed>4.0</MoveSpeed>
@@ -181,7 +181,7 @@
 <ThingDef ParentName="AnimalThingBase" Name="JellyRatThingBase">
 	<defName>FR_JellyRat</defName>
 	<label>Jelly Rat</label>
-	<description>everywhere they go. It eats almost anything and lives almost anywhere.</description>
+	<description>Rat. More intelligent than the usual kind. A good friend but also a valuable resource.</description>
 	<statBases>
 		<MeatAmount>15</MeatAmount>
 
@@ -358,7 +358,7 @@
 <ThingDef ParentName="AnimalThingBase" Name="FungusRatThingBase">
 	<defName>FR_FungusRat</defName>
 	<label>Fungus Rat</label>
-	<description>everywhere they go. It eats almost anything and lives almost anywhere.</description>
+	<description>Rat. More intelligent than the usual kind. A good friend but also a valuable resource.</description>
 	<statBases>
 		<MeatAmount>15</MeatAmount>
 
@@ -535,7 +535,7 @@
 <ThingDef ParentName="AnimalThingBase" Name="PitaRatThingBase">
 	<defName>FR_PitaRat</defName>
 	<label>Pita Rat</label>
-	<description>everywhere they go. It eats almost anything and lives almost anywhere.</description>
+	<description>Rat. More intelligent than the usual kind. A good friend but also a valuable resource.</description>
 	<statBases>
 		<MeatAmount>15</MeatAmount>
 
@@ -711,7 +711,7 @@
 <ThingDef ParentName="AnimalThingBase" Name="HopsRatThingBase">
 	<defName>FR_HopsRat</defName>
 	<label>Hops Rat</label>
-	<description>everywhere they go. It eats almost anything and lives almost anywhere.</description>
+	<description>Rat. More intelligent than the usual kind. A good friend but also a valuable resource.</description>
 	<statBases>
 		<MeatAmount>15</MeatAmount>
 

@@ -47,7 +47,7 @@
 		    <defName>FR_PotatoKing</defName>
 			<label>PotatoKing</label>
 			<devNote>misc</devNote>
-			<description>Heavimeat or corpses. If disendants of weapor populee them as thols of agod.</description>
+			<description>Majestic creatures were bred using the code, the food type "potato", which is considered by many peoples as "second bread". Dangerous. They do not require as many nutrients as other species. Breed with care.</description>
 			
 			<statBases>
 				<MoveSpeed>6.0</MoveSpeed>
@@ -273,7 +273,7 @@
 	<ThingDef ParentName="AnimalFloranBase">
 		<defName>FR_Ricemonkey</defName>
 		<label>Ricemonkey</label>
-		<description>A small primate.</description>
+		<description>Small, fast, cunning, prolific. Growth to the maximum level is faster than other species. Due to their small size, they are not capable of inflicting serious damage, but one at a time. Dangerous on their own. It is recommended to eliminate wild representatives, they pose a serious danger to both typical representatives of the fauna and the local population.</description>
 		<statBases>
 			<MoveSpeed>8.3</MoveSpeed>
 			<MarketValue>1000</MarketValue>
@@ -455,7 +455,7 @@
 		<defName>FR_Kibblebaka</defName>
 		<label>Kibblebaka</label>
 		<devNote>Floran</devNote>
-		<description>Afghan Hound</description>
+		<description>Pretty good experiment. Highly trained household assistants. Not suitable for hunting and protection. Small period of life. Despite the possible usefulness, they were used as the basis for compound feed.</description>
 		<statBases>
 			<LeatherAmount>0</LeatherAmount>
 			<Flammability>2</Flammability>
@@ -649,7 +649,7 @@
 		<ThingDef ParentName="AnimalFloranBase">
 			<defName>FR_MaizeBison</defName>
 			<label>Maize Bison</label>
-			<description>A er got changed.</description>
+			<description>Large animals. A hybrid of corn and bison. Long period of maturation. Dangerous. The most durable example.</description>
 			<statBases>
 				<MoveSpeed>2</MoveSpeed>
 				<MarketValue>4000</MarketValue>
@@ -812,7 +812,7 @@
 		<ThingDef ParentName="AnimalFloranBase">
 			<defName>FR_BerriKapi</defName>
 			<label>Berri Kapi</label>
-			<description>dsf</description>
+			<description>To meet the needs of the nobility, animals were bred based on the genes of the giraffe family. Unfortunately, like other samples, it was not possible to achieve obedience. They also pose a danger.</description>
 			<statBases>
 				<MoveSpeed>5.8</MoveSpeed>
 				<MarketValue>2000</MarketValue>
