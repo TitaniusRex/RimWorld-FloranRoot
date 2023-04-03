@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+<!--Цветет глициния розовым, фиолетовым, голубым или белым цветом.-->
+
+		<ThingDef ParentName="TreeBase">
+		<defName>FR_Plant_TreeWisteria</defName>
+		<label>Wisteria</label>
+		<description>Once upon a time, a genus of tall tree-like climbing subtropical plants from the Legume family with large racemes of fragrant purple flowers, which were widely used in landscape design. Now a species that gives a decent amount of wood and is not picky about soil fertility.</description>
+		<graphicData>
+			<texPath>Things/Plant/TreeWisteria/TreeWisteria</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.2, 0.3, 0.13)</volume>
+				<offset>(0,0,-0.44)</offset>
+			</shadowData>
+			<shaderParameters>
+				<_FallColorSource>(0.373, 0.427, 0.313)</_FallColorSource>
+				<_FallTransitionRange>(0.02, 0.14)</_FallTransitionRange>
+			</shaderParameters>
+		</graphicData>
+		 <selectable>true</selectable>
+		<statBases>
+			
+			<Mass>225</Mass>
+			<Flammability>0.5</Flammability>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Beauty>30</Beauty>
+			<BeautyOutdoors>30</BeautyOutdoors>
+			<Nutrition>3.75</Nutrition>
+		</statBases>
+
+			
+		<fillPercent>0.75</fillPercent>
+		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+		<canScatterOver>false</canScatterOver>
+		
+		<plant>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<mustBeWildToSow>false</mustBeWildToSow>
+			<harvestTag>Wood</harvestTag>
+			<harvestedThingDef>WoodLog</harvestedThingDef>
+			<treeCategory>Super</treeCategory><!---->
+			<dieIfLeafless>false</dieIfLeafless>
+			<fertilitySensitivity>0.3</fertilitySensitivity>
+			<allowAutoCut>false</allowAutoCut>
+			<dieFromToxicFallout>False</dieFromToxicFallout>
+			<dieIfNoSunlight>false</dieIfNoSunlight>
+			<sowMinSkill>8</sowMinSkill>
+			<growDays>30</growDays>
+			<harvestWork>2200</harvestWork>
+			<harvestYield>120</harvestYield>
+			<wildClusterRadius>7</wildClusterRadius>
+			<wildClusterWeight>20</wildClusterWeight>
+			<visualSizeRange>2.3~3</visualSizeRange>
+			<purpose>Beauty</purpose>
+		</plant>
+	</ThingDef>
+</Defs>
