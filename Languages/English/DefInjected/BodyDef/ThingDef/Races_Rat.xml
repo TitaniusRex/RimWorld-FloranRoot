@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<FR_ChocoRat.label>Choco rat</FR_ChocoRat.label>
+	<FR_ChocoRat.labelPlurals>Choco rats</FR_ChocoRat.labelPlurals>
+	<FR_ChocoRat.description>Rat. More intelligent than the usual kind. A good friend but also a valuable resource.</FR_ChocoRat.description>
+
+	<FR_JellyRat.label>Jelly Rat</FR_JellyRat.label>
+	<FR_JellyRat.labelPlurals>Jelly Rats</FR_JellyRat.labelPlurals>
+	<FR_JellyRat.description>Rat. More intelligent than the usual kind. A good friend but also a valuable resource.</FR_JellyRat.description>
+
+
+	<FR_FungusRat.label>Mushroom rat</FR_FungusRat.label>
+	<FR_FungusRat.labelPlurals>Mushroom rats</FR_FungusRat.labelPlurals>
+	<FR_FungusRat.description>Rat. More intelligent than the usual kind. A good friend but also a valuable resource.</FR_FungusRat.description>
+
+
+	<FR_PitaRat.label>Pita rat</FR_PitaRat.label>
+	<FR_PitaRat.labelPlurals>Pita rats</FR_PitaRat.labelPlurals>
+	<FR_PitaRat.description>Rat. More intelligent than the usual kind. A good friend but also a valuable resource.</FR_PitaRat.description>
+
+
+	<FR_HopsRat.label>Hop rat</FR_HopsRat.label>
+	<FR_HopsRat.labelPlurals>Hop rats</FR_HopsRat.labelPlurals>
+	<FR_HopsRat.description>Rat. More intelligent than the usual kind. A good friend but also a valuable resource.</FR_HopsRat.description>
+	
+</LanguageData>
