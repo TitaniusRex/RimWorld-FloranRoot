@@ -5,7 +5,7 @@
 
 	<FR_PotatoKing.label>Король Картофель</FR_PotatoKing.label>
 	<FR_PotatoKing.labelFemale>Кошка Картошка</FR_PotatoKing.labelFemale>
-	<FR_PotatoKing.description>Величественные создания были выведены с использованием кода, продовольственного вида "картофель", который у многих народах считается "вторым хлебом". Опасны. Требуют не такого количества питательных веществ как иные виды. Разводить с осторожностью.</FR_PotatoKing.description>
+	<FR_PotatoKing.description>Величественные создания были выведены с использованием кода клубненосных травянистых растений из рода Паслён,(проще картофель) который у многих народах считается "вторым хлебом". Опасны. Требуют не такого количества питательных веществ как иные виды. Разводить с осторожностью.</FR_PotatoKing.description>
 	<FR_PotatoKing.labelPlurals>Кошки Картошки</FR_PotatoKing.labelPlurals>
 	<FR_PotatoKing.lifeStages.0.label>Картафёнок</FR_PotatoKing.lifeStages.0.label>
 	<FR_PotatoKing.lifeStages.0.labelPlural>Картафята</FR_PotatoKing.lifeStages.0.labelPlural>
@@ -16,8 +16,12 @@
 
 
 	<FR_Kibblebaka.label>Сенопёс</FR_Kibblebaka.label>
+	<FR_Kibblebaka.labelPlurals>Сенособаки</FR_Kibblebaka.labelPlurals>
 	<FR_Kibblebaka.description>Довольно удачный эксперемент. Высокообучаемые помошники в хозяйстве. Не подходят для охоты и охраны. Малый период жизни. Несмотря на возможную полезность, использовались как основа для комбикорма.</FR_Kibblebaka.description>
-
+	<FR_Kibblebaka.lifeStages.0.label>Сено-щенки</FR_Kibblebaka.lifeStages.0.label>
+	<FR_Kibblebaka.lifeStages.0.labelPlural>Сено-щенята</FR_Kibblebaka.lifeStages.0.labelPlural>
+	
+	
 	<FR_MaizeBison.label>Маисовый Бизон</FR_MaizeBison.label>
 	<FR_MaizeBison.labelPlurals>Маисовые Бизоны</FR_MaizeBison.labelPlurals>
 	<FR_MaizeBison.description>Крупногабаритные животные. Гибрид кукурузы и бизона. Длительный перион созревания. Опасны. Самый живучий образец.</FR_MaizeBison.description>

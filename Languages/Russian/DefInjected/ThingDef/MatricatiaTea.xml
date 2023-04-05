@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+	<FR_MatricariaTea.label>ромашковый чай</FR_MatricariaTea.label>
+	<FR_MatricariaTea.description>Зелёный чай. Тонизирует. Морально успокаивает.</FR_MatricariaTea.description>
+
+	<FR_MatricariaTea.ingestible.ingestCommandString>Пить {lookup: {0}; Case; 3}</FR_MatricariaTea.ingestible.ingestCommandString>
+	<FR_MatricariaTea.ingestible.ingestReportString>Пьёт {lookup: {0}; Case; 3}</FR_MatricariaTea.ingestible.ingestReportString>
+	
+</LanguageData>
