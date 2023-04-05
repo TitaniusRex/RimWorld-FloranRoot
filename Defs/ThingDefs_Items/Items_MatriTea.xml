@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<ThingDef ParentName="MakeableDrugBase">
+		<defName>FR_MatricariaTea</defName>
+		<label>Matricaria Tea</label>
+		<description>A drink made from brew tea leaves.</description>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<graphicData>
+			<texPath>Things/Item/Drug/MatricariaTea</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<stackLimit>30</stackLimit>
+		<statBases>
+			<WorkToMake>400</WorkToMake>
+			<Mass>0.05</Mass>
+			<DeteriorationRate>6</DeteriorationRate>
+			<MarketValue>15</MarketValue>
+			<Nutrition>0.08</Nutrition>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Drug">
+				<chemical>MatricariaTea</chemical>
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+			</li>
+		</comps>
+		
+		<techLevel>Neolithic</techLevel>
+		<ingestible>
+			<foodType>Fluid, Processed, Liquor</foodType>
+			<joyKind>Chemical</joyKind>
+			<joy>0.25</joy>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
+			<baseIngestTicks>210</baseIngestTicks>
+			<ingestSound>Ingest_Drink</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<chairSearchRadius>25</chairSearchRadius>
+			<tableDesired>false</tableDesired>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+			<outcomeDoers>
+
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MatricariaTea</hediffDef>
+					<severity>1</severity>
+				</li>
+				
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>0.2</offset>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<costList>
+			<FR_Matricariaflow>15</FR_Matricariaflow>
+		</costList>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Campfire</li>
+				<li>ElectricStove</li>
+				<li>FueledStove</li>
+			</recipeUsers>
+			<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+			<workSkill>Cooking</workSkill>
+			<skillRequirements>
+				<Cooking>2</Cooking>
+			</skillRequirements>
+			<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+			<displayPriority>1460</displayPriority>
+		</recipeMaker>
+	
+	</ThingDef>
+
+
+	<HediffDef>
+		<defName>MatricariaTea</defName>
+		<label>soothing tea</label>
+		<description>good mood drink</description>
+		<hediffClass>Hediff_High</hediffClass>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<makeImmuneTo>
+					<li>Flu</li>
+				</makeImmuneTo>
+				<statFactors>
+					<RestFallRateFactor>0.6</RestFallRateFactor>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+
+	<ThoughtDef>
+		<defName>MatricariaTea</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>MatricariaTea</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>tea matrica</label>
+				<description>That tea makes me feel more relaxed, and gives me energy at the same time.</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ChemicalDef>
+		<defName>MatricariaTea</defName>
+		<label>Matricaria Tea</label>
+		<addictionHediff>MatricariaTeaAddiction</addictionHediff>
+		<generateAddictionGenes>false</generateAddictionGenes>
+	</ChemicalDef>
+
+	<HediffDef ParentName="AddictionBase">
+		<defName>MatricariaTeaAddiction</defName>
+		<label>Matricaria Tea addiction</label>
+		<description>its normal state</description>
+		<hediffClass>Hediff_Addiction</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.1</severityPerDay>
+				<showDaysToRecover>true</showDaysToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>withdrawal</label>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>
+
+
+
+
