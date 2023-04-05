@@ -93,7 +93,7 @@
 		<hediffClass>Hediff_High</hediffClass>
 		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
 		<scenarioCanAdd>true</scenarioCanAdd>
-		<maxSeverity>1.0</maxSeverity>
+		<maxSeverity>1.15</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
