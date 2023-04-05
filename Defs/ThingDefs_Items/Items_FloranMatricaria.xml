@@ -9,7 +9,8 @@
 		<possessionCount>10</possessionCount>
 		<stackLimit>600</stackLimit>
 		<graphicData>
-			<texPath>Things/Item/Resource/PlantFoodRaw/Matricaria/Matricaria</texPath>
+			<texPath>Things/Item/Resource/PlantFoodRaw/Matricaria</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
 			<Mass>0.014</Mass>
