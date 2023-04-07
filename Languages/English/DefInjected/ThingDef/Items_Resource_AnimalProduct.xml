@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+
+	<FR_PotatoKingEgg.label>PotatoKing "Seed" </FR_PotatoKingEgg.label>
+	<FR_PotatoKingEgg.description>"Seeds" of the Potato King. Weather conditions will not affect "germination". If intentionally not destroyed, there is a near-zero chance that it will happen on its own. Highly nutritious, but there is a possibility of food poisoning. Recycling is recommended for population control.</FR_PotatoKingEgg.description>
+
+	<FR_RicemonkeyEgg.label>Rice Monkey "Seed"</FR_RicemonkeyEgg.label>
+	<FR_RicemonkeyEgg.description>"Seeds" of the Rice Monkey. Weather conditions will not affect "germination". If intentionally not destroyed, there is a near-zero chance that it will happen on its own. Normal nutrition, there is a possibility of food poisoning. For population control, it is HIGHLY recommended to recycle.</FR_RicemonkeyEgg.description>
+
+	<FR_KibblebakaEgg.label>Kibblebaka "Seed"</FR_KibblebakaEgg.label>
+	<FR_KibblebakaEgg.description>"Seeds" of Kibblebaka. Weather conditions will not affect "germination". If intentionally not destroyed, there is a near-zero chance that it will happen on its own. Nutritious, extremely high risk of food poisoning.</FR_KibblebakaEgg.description>
+
+	<FR_MaizeBisonEgg.label>Maize Bison "Seed"</FR_MaizeBisonEgg.label>
+	<FR_MaizeBisonEgg.description>"Seeds" of Maize Bison. Weather conditions will not affect "germination". If intentionally not destroyed, there is a near-zero chance that it will happen on its own. Highly nutritious, minimal chance of food poisoning.</FR_MaizeBisonEgg.description>
+
+	<FR_BerriKapiEgg.label>Berry Kapi "Seed"</FR_BerriKapiEgg.label>
+	<FR_BerriKapiEgg.description>"Seeds" Berry Kapi. Weather conditions will not affect "germination". If intentionally not destroyed, there is a near-zero chance that it will happen on its own. Highly nutritious, minimal chance of food poisoning.</FR_BerriKapiEgg.description>
+
+
+</LanguageData>
