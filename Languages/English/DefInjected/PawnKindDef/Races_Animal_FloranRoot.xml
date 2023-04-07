@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+
+	<FR_PotatoKing.label>Potato King</FR_PotatoKing.label>
+	<FR_PotatoKing.labelFemale>Potato Cat</FR_PotatoKing.labelFemale>
+	<FR_PotatoKing.description>Majestic creatures were bred using the code of tuberous herbaceous plants from the genus Nightshade, (more simply potatoes), which is considered by many peoples as "second bread". Dangerous. They do not require as many nutrients as other species. Breed with care.</FR_PotatoKing.description>
+	<FR_PotatoKing.labelPlurals>Cats Potatoes</FR_PotatoKing.labelPlurals>
+
+	<FR_Ricemonkey.label>Rice monkey</FR_Ricemonkey.label>
+	<FR_Ricemonkey.description>Small, fast, cunning, prolific. Growth to the maximum level is faster than other species. Due to their small size, they are not capable of inflicting serious damage, but one at a time. Dangerous on their own. It is recommended to eliminate wild representatives, they pose a serious danger to both typical representatives of the fauna and the local population.</FR_Ricemonkey.description>
+
+
+	<FR_Kibblebaka.label>Kibblebaka</FR_Kibblebaka.label>
+	<FR_Kibblebaka.description>Pretty good experiment. Highly trained household assistants. Not suitable for hunting and protection. Small period of life. Despite the possible usefulness, they were used as the basis for compound feed.</FR_Kibblebaka.description>
+	<FR_Kibblebaka.lifeStages.0.label>hay puppies</FR_Kibblebaka.lifeStages.0.label>
+	
+	
+	<FR_MaizeBison.label>Maize Bison</FR_MaizeBison.label>
+	<FR_MaizeBison.description>Large animals. A hybrid of corn and bison. Long period of maturation. Dangerous. The most durable example.</FR_MaizeBison.description>
+	<FR_MaizeBison.lifeStages.0.label>maize calf</FR_MaizeBison.lifeStages.0.label>
+	<FR_MaizeBison.lifeStages.0.labelPlural>maize calves</FR_MaizeBison.lifeStages.0.labelPlural>
+
+
+	<FR_BerriKapi.label>Berry Kapi</FR_BerriKapi.label>
+	<FR_BerriKapi.description>To meet the needs of the nobility, animals were bred based on the genes of the giraffe family. Unfortunately, like other samples, it was not possible to achieve obedience. They also pose a danger.</FR_BerriKapi.description>
+	<FR_BerriKapi.lifeStages.0.label>berry calf</FR_BerriKapi.lifeStages.0.label>
+	<FR_BerriKapi.lifeStages.0.labelPlural>berry calves</FR_BerriKapi.lifeStages.0.labelPlural>
+
+
+</LanguageData>
