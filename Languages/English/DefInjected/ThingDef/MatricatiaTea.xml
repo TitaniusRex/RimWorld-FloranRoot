@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+	<FR_MatricariaTea.label>chamomile tea</FR_MatricariaTea.label>
+	<FR_MatricariaTea.description>Green tea. Tones. Morally calming.</FR_MatricariaTea.description>
+
+	<FR_MatricariaTea.ingestible.ingestCommandString>Drink {lookup: {0}; Case; 3}</FR_MatricariaTea.ingestible.ingestCommandString>
+	<FR_MatricariaTea.ingestible.ingestReportString>Drinking {lookup: {0}; Case; 3}</FR_MatricariaTea.ingestible.ingestReportString>
+	
+</LanguageData>
