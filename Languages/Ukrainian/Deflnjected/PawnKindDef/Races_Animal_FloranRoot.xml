@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+
+	<FR_PotatoKing.label>Король Картопля</FR_PotatoKing.label>
+	<FR_PotatoKing.labelFemale>Кішка Картопля</FR_PotatoKing.labelFemale>
+	<FR_PotatoKing.description>Величні створення були виведені з використанням коду бульбоносних трав'янистих рослин з роду Пасльон, (простіше картопля) який у багатьох народах вважається "другим хлібом". Небезпечні. Вимагають не такої кількості поживних речовин, як інші види. Розводити з обережністю.</FR_PotatoKing.description>
+	<FR_PotatoKing.lifeStages.0.label>Картопеня</FR_PotatoKing.lifeStages.0.label>
+	<FR_PotatoKing.lifeStages.0.labelPlural>Картоплята</FR_PotatoKing.lifeStages.0.labelPlural>
+	
+	
+	<FR_Ricemonkey.label>Рисова мавпа</FR_Ricemonkey.label>
+	<FR_Ricemonkey.description>Малорослі, швидкі, хитрі, плодючі. Зростання до максимального рівня відбувається швидше, ніж у інших видів. У зв'язку з малими розмірами не здатні завдати серйозної шкоди, але поодинці. Небезпечні на самовипасі. Рекомендується усувати диких представників, що становлять серйозну небезпеку як типовим представникам фауни так і місцевому населенню.</FR_Ricemonkey.description>
+
+
+	<FR_Kibblebaka.label>Сінопес</FR_Kibblebaka.label>
+	<FR_Kibblebaka.labelPlurals>Сінопси</FR_Kibblebaka.labelPlurals>
+	<FR_Kibblebaka.description>Досить вдалий експеримент. Високонавчальні помічники у господарстві. Не підходять для полювання та охорони. Невеликий період життя. Незважаючи на можливу корисність, використовувалися як основа комбікорму.</FR_Kibblebaka.description>
+	<FR_Kibblebaka.lifeStages.0.label>Сіно-цуцик</FR_Kibblebaka.lifeStages.0.label>
+	<FR_Kibblebaka.lifeStages.0.labelPlural>Сіно-цуцики</FR_Kibblebaka.lifeStages.0.labelPlural>
+	
+	
+	<FR_MaizeBison.label>Маісовий Бізон</FR_MaizeBison.label>
+	<FR_MaizeBison.labelPlurals>Маїсові Бізони</FR_MaizeBison.labelPlurals>
+	<FR_MaizeBison.description>Великогабаритні тварини. Гібрид кукурудзи та бізону. Тривалий період дозрівання. Небезпечні. Найживучий зразок.</FR_MaizeBison.description>
+	<FR_MaizeBison.lifeStages.0.label>Маїсове теля</FR_MaizeBison.lifeStages.0.label>
+	<FR_MaizeBison.lifeStages.0.labelPlural>Маїсові телята</FR_MaizeBison.lifeStages.0.labelPlural>
+
+
+	<FR_BerriKapi.label>Ягідна Капі</FR_BerriKapi.label>
+	<FR_BerriKapi.labelPlurals>Ягідні Капі</FR_BerriKapi.labelPlurals>
+	<FR_BerriKapi.description>Для задоволення потреб знаті були виведені тварини, в основі яких гени сімейства жирафових. На жаль, як і інші зразки, не вдалося домогтися послуху. Також становлять небезпеку.</FR_BerriKapi.description>
+	<FR_BerriKapi.lifeStages.0.label>Ягідне теля</FR_BerriKapi.lifeStages.0.label>
+	<FR_BerriKapi.lifeStages.0.labelPlural>Ягідні телята</FR_BerriKapi.lifeStages.0.labelPlural>
+
+
+</LanguageData>

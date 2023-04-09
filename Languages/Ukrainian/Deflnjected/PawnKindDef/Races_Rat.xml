@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<FR_ChocoRat.label>Шоколадний щур</FR_ChocoRat.label>
+	<FR_ChocoRat.labelPlurals>Шоколадні щури</FR_ChocoRat.labelPlurals>
+	<FR_ChocoRat.description>Пацюк. Більш інтелектуальна ніж типовий вигляд. Хороший друг та ще й цінні ресурси.</FR_ChocoRat.description>
+
+	<FR_JellyRat.label>Желейний щур</FR_JellyRat.label>
+	<FR_JellyRat.labelPlurals>Желейні щури</FR_JellyRat.labelPlurals>
+	<FR_JellyRat.description>Пацюк. Більш інтелектуальна ніж типовий вигляд. Хороший друг та ще й цінні ресурси.</FR_JellyRat.description>
+
+
+	<FR_FungusRat.label>Грибний щур</FR_FungusRat.label>
+	<FR_FungusRat.labelPlurals>Грибні щури</FR_FungusRat.labelPlurals>
+	<FR_FungusRat.description>Пацюк. Більш інтелектуальна ніж типовий вигляд. Хороший друг та ще й цінні ресурси.</FR_FungusRat.description>
+
+
+	<FR_PitaRat.label>Кактусовий щур</FR_PitaRat.label>
+	<FR_PitaRat.labelPlurals>Кактусові щури</FR_PitaRat.labelPlurals>
+	<FR_PitaRat.description>Пацюк. Більш інтелектуальна ніж типовий вигляд. Хороший друг та ще й цінні ресурси.</FR_PitaRat.description>
+
+
+	<FR_HopsRat.label>Хмільний щур</FR_HopsRat.label>
+	<FR_HopsRat.labelPlurals>Хмільні щури</FR_HopsRat.labelPlurals>
+	<FR_HopsRat.description>Пацюк. Більш інтелектуальна ніж типовий вигляд. Хороший друг та ще й цінні ресурси.</FR_HopsRat.description>
+	
+</LanguageData>
