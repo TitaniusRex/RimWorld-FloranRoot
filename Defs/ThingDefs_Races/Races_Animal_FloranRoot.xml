@@ -115,7 +115,6 @@
           <minAge>0.06</minAge>
           <soundWounded>Pawn_Cougar_Injured</soundWounded>
           <soundDeath>Pawn_Cougar_Death</soundDeath>
-          <!--<soundCall>Pawn_Warg_Call</soundCall>-->
           <soundAngry>Pawn_Cougar_Angry</soundAngry>
         </li>
       </lifeStageAges>
