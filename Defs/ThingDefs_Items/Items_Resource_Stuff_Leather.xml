@@ -13,7 +13,7 @@
 			<MarketValue>14.0</MarketValue>
 			<StuffPower_Armor_Sharp>2.50</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Blunt>1.50</StuffPower_Armor_Blunt>
-			<StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Cold>7</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>7</StuffPower_Insulation_Heat>
 		</statBases>
 
@@ -22,7 +22,7 @@
 			<commonality>0.0025</commonality>
 			<statFactors>
 				<MaxHitPoints>3.0</MaxHitPoints>
-				<Beauty>1</Beauty>
+				<Beauty>3</Beauty>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
