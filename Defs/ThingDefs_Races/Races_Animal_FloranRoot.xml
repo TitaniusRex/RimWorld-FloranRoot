@@ -27,7 +27,7 @@
 			<bloodDef>Filth_Slime</bloodDef>
 			<foodType>CarnivoreAnimalStrict</foodType>
 		    <leatherDef>Leather_FloranGreen</leatherDef>
-			<manhunterOnTameFailChance>0.95</manhunterOnTameFailChance>
+			<manhunterOnTameFailChance>0.80</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1.00</manhunterOnDamageChance>
 		    <nameOnTameChance>1</nameOnTameChance>
 			<trainability>None</trainability>
