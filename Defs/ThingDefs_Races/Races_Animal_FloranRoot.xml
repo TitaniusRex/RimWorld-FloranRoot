@@ -51,7 +51,7 @@
 			
 			<statBases>
 				<MoveSpeed>6.0</MoveSpeed>
-				<MarketValue>4000</MarketValue>	
+				<MarketValue>1000</MarketValue>	
 				</statBases>
 
 	  <comps>
@@ -275,7 +275,7 @@
 		<description>Small, fast, cunning, prolific. Growth to the maximum level is faster than other species. Due to their small size, they are not capable of inflicting serious damage, but one at a time. Dangerous on their own. It is recommended to eliminate wild representatives, they pose a serious danger to both typical representatives of the fauna and the local population.</description>
 		<statBases>
 			<MoveSpeed>8.3</MoveSpeed>
-			<MarketValue>1000</MarketValue>
+			<MarketValue>300</MarketValue>
 		</statBases>
 		<uiIconScale>1.5</uiIconScale>
 			  <comps>
@@ -463,7 +463,7 @@
 			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
 			<ComfyTemperatureMax>40</ComfyTemperatureMax>
 			<MoveSpeed>5.0</MoveSpeed>
-			<MarketValue>1250</MarketValue>
+			<MarketValue>250</MarketValue>
 		</statBases>
 
 		 <comps>
@@ -651,7 +651,7 @@
 			<description>Large animals. A hybrid of corn and bison. Long period of maturation. Dangerous. The most durable example.</description>
 			<statBases>
 				<MoveSpeed>2</MoveSpeed>
-				<MarketValue>4000</MarketValue>
+				<MarketValue>2000</MarketValue>
 				<ComfyTemperatureMin>-155</ComfyTemperatureMin>
 				<ComfyTemperatureMax>240</ComfyTemperatureMax>
 				<FilthRate>60</FilthRate>
