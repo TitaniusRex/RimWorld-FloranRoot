@@ -38,7 +38,7 @@
 		  <Flammability>0</Flammability>
 		  <Nutrition>2</Nutrition>
 		  <FoodPoisonChanceFixedHuman>0.1</FoodPoisonChanceFixedHuman>
-	      <MarketValue>60.0</MarketValue>
+	      <MarketValue>14.0</MarketValue>
     </statBases>
     <comps>
 		<li Class="CompProperties_Hatcher">
@@ -68,7 +68,7 @@
 			<Flammability>0</Flammability>
 			<Nutrition>0.10</Nutrition>
 			<FoodPoisonChanceFixedHuman>0.1</FoodPoisonChanceFixedHuman>
-			<MarketValue>15.0</MarketValue>
+			<MarketValue>2.0</MarketValue>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Hatcher">
@@ -98,7 +98,7 @@
 			<Flammability>1</Flammability>
 			<Nutrition>0.5</Nutrition>
 			<FoodPoisonChanceFixedHuman>0.55</FoodPoisonChanceFixedHuman>
-			<MarketValue>5.0</MarketValue>
+			<MarketValue>1.0</MarketValue>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Hatcher">
@@ -156,7 +156,7 @@
 			<Flammability>0</Flammability>
 			<Nutrition>1</Nutrition>
 			<FoodPoisonChanceFixedHuman>0.01</FoodPoisonChanceFixedHuman>
-			<MarketValue>120.0</MarketValue>
+			<MarketValue>90.0</MarketValue>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Hatcher">
