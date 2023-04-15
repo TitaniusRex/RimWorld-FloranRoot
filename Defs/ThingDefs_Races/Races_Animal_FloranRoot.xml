@@ -732,9 +732,10 @@
       </productFluctuation>
 			</li>
 	</modExtensions>
-   <tradeTags>
-      <li>AnimalUncommon</li>
-    </tradeTags>
+   		<tradeTags>
+      			<li>AnimalUncommon</li>
+	  		<li>AnimalExotic</li>
+    		</tradeTags>
 			<tools>
 				<li>
 					<label>head</label>
@@ -900,8 +901,9 @@
 				</li>
 			</modExtensions>
 			<tradeTags>
-				<li>AnimalCommon</li>
-			</tradeTags>
+      				<li>AnimalUncommon</li>
+	  			<li>AnimalExotic</li>
+    			</tradeTags>
 			
 				<tools>
 					<li>
@@ -909,7 +911,7 @@
 						<capacities>
 							<li>Blunt</li>
 							</capacities>
-						<power>35</power>
+						<power>20</power>
 						<cooldownTime>1</cooldownTime>
 						<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 						<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -918,7 +920,7 @@
 						<capacities>
 							<li>Bite</li>
 						</capacities>
-						<power>35</power>
+						<power>20</power>
 						<cooldownTime>2</cooldownTime>
 						<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 						<chanceFactor>0.5</chanceFactor>
