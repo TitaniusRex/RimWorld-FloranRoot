@@ -26,14 +26,15 @@
 			<fleshType>Normal</fleshType>
 			<bloodDef>Filth_Slime</bloodDef>
 			<foodType>CarnivoreAnimalStrict</foodType>
-		    <leatherDef>Leather_FloranGreen</leatherDef>
+		    	<leatherDef>Leather_FloranGreen</leatherDef>
 			<manhunterOnTameFailChance>0.80</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1.00</manhunterOnDamageChance>
-		    <nameOnTameChance>1</nameOnTameChance>
+		    	<nameOnTameChance>1</nameOnTameChance>
 			<trainability>None</trainability>
 			<packAnimal>false</packAnimal>
 			<wildness>0.985</wildness>
-		    <gestationPeriodDays>30</gestationPeriodDays>
+		    	<gestationPeriodDays>30</gestationPeriodDays>
+			<maxPreyBodySize>99.00</maxPreyBodySize>
 		</race>
 		
 
@@ -72,7 +73,6 @@
       <baseBodySize>3</baseBodySize>
       <baseHungerRate>0.06</baseHungerRate>
       <baseHealthScale>22.0</baseHealthScale>
-      <maxPreyBodySize>6.0</maxPreyBodySize>
 		<roamMtbDays>1</roamMtbDays>
 		<mateMtbHours>20</mateMtbHours>
       <litterSizeCurve>
@@ -133,9 +133,9 @@
 	<modExtensions>
 		<li Class="CustomButcherFramework.CustomButcherExtension">
 			<customButcherProducts>
-				<RawPotatoes>200</RawPotatoes>
-				<Meat_Human>20</Meat_Human>
-				<Meat_Panther>20</Meat_Panther>
+				<RawPotatoes>180</RawPotatoes>
+				<Meat_Human>10</Meat_Human>
+				<Meat_Panther>10</Meat_Panther>
 				</customButcherProducts>
 		<productFluctuation>
 					<li>60</li>
@@ -334,7 +334,6 @@
 			<baseBodySize>0.35</baseBodySize>
 			<baseHungerRate>0.035</baseHungerRate>
 			<baseHealthScale>4.45</baseHealthScale>
-			<maxPreyBodySize>5.0</maxPreyBodySize>
 			<lifeExpectancy>7</lifeExpectancy>
 			<roamMtbDays>1</roamMtbDays>
 			<mateMtbHours>20</mateMtbHours>
@@ -669,7 +668,7 @@
 			<race>
 				<herdAnimal>true</herdAnimal>
 				<body>QuadrupedFloranWithHooves</body>
-				<baseBodySize>5</baseBodySize>
+				<baseBodySize>6</baseBodySize>
 				<baseHealthScale>30</baseHealthScale>
 				<baseHungerRate>2</baseHungerRate>
 				<gestationPeriodDays>2</gestationPeriodDays>
@@ -725,7 +724,7 @@
 		<modExtensions>
 		<li Class="CustomButcherFramework.CustomButcherExtension">
 			<customButcherProducts>
-				<RawCorn>350</RawCorn>
+				<RawCorn>300</RawCorn>
 			</customButcherProducts>
 		<productFluctuation>
         <li>50</li>
@@ -845,7 +844,7 @@
 			<race>
 				<herdAnimal>true</herdAnimal>
 				<body>QuadrupedFloranWithHooves</body>
-				<baseBodySize>3</baseBodySize>
+				<baseBodySize>4</baseBodySize>
 				<baseHealthScale>28</baseHealthScale>
 				<baseHungerRate>0.425</baseHungerRate>
 				<gestationPeriodDays>1</gestationPeriodDays>
