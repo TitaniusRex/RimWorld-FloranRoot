@@ -155,14 +155,14 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>19</power>
+        <power>17</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>21</amount>
+              <amount>10</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -173,14 +173,14 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>21</power>
+        <power>17</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>24</amount>
+              <amount>10</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -191,8 +191,8 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>45</power>
-        <cooldownTime>2</cooldownTime>
+        <power>35</power>
+        <cooldownTime>3</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.9</chanceFactor>
         <surpriseAttack>
@@ -742,7 +742,7 @@
 					<capacities>
 						<li>Blunt</li>
 					</capacities>
-					<power>35</power>
+					<power>10</power>
 					<cooldownTime>3</cooldownTime>
 					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -753,7 +753,7 @@
 						<li>Blunt</li>
 						<li>Poke</li>
 						</capacities>
-					<power>20</power>
+					<power>10</power>
 					<cooldownTime>2</cooldownTime>
 					<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
 				</li>
@@ -763,7 +763,7 @@
 						<li>Blunt</li>
 						<li>Poke</li>
 					</capacities>
-					<power>20</power>
+					<power>10</power>
 					<cooldownTime>2</cooldownTime>
 					<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
 				</li>
@@ -771,7 +771,7 @@
 					<capacities>
 						<li>Bite</li>
 					</capacities>
-					<power>25</power>
+					<power>20</power>
 					<cooldownTime>2</cooldownTime>
 					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 					<chanceFactor>0.5</chanceFactor>
@@ -911,7 +911,7 @@
 						<capacities>
 							<li>Blunt</li>
 							</capacities>
-						<power>20</power>
+						<power>10</power>
 						<cooldownTime>1</cooldownTime>
 						<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 						<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
