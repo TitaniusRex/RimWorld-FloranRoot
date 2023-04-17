@@ -826,7 +826,7 @@
 			<label>Berri Kapi</label>
 			<description>To meet the needs of the nobility, animals were bred based on the genes of the giraffe family. Unfortunately, like other samples, it was not possible to achieve obedience. They also pose a danger.</description>
 			<statBases>
-				<MoveSpeed>5.8</MoveSpeed>
+				<MoveSpeed>8.8</MoveSpeed>
 				<MarketValue>2000</MarketValue>
 				</statBases>
 			<comps>
