@@ -345,14 +345,12 @@
 				<TropicalSwamp>1.5</TropicalSwamp>
 
 				<BorealForest>0.8</BorealForest>
-				<ColdBog>0.8</ColdBog>
-				<Tundra>0.8</Tundra>
-				<IceSheet>0.6</IceSheet>
-				<SeaIce>0.3</SeaIce>
-
-				<AridShrubland>0.8</AridShrubland>
-				<Desert>0.8</Desert>
-				<ExtremeDesert>0.8</ExtremeDesert>
+				<ColdBog>0.3</ColdBog>
+				<Tundra>0.3</Tundra>
+				
+				<AridShrubland>0.2</AridShrubland>
+				<Desert>0.2</Desert>
+				<ExtremeDesert>0.1</ExtremeDesert>
 			</wildBiomes>
 				
 				<lifeStageAges>
