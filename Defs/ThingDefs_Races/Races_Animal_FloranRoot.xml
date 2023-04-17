@@ -70,7 +70,7 @@
 		<useMeatFrom>Panther</useMeatFrom>
 		<animalType>Canine</animalType>
 		<body>QuadrupedFloranWithPawsAndTail</body>
-      <baseBodySize>3</baseBodySize>
+      <baseBodySize>4</baseBodySize>
       <baseHungerRate>0.06</baseHungerRate>
       <baseHealthScale>22.0</baseHealthScale>
 		<roamMtbDays>1</roamMtbDays>
