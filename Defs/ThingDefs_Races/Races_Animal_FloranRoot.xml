@@ -71,7 +71,7 @@
 		<animalType>Canine</animalType>
 		<body>QuadrupedFloranWithPawsAndTail</body>
       <baseBodySize>3</baseBodySize>
-      <baseHungerRate>0.06</baseHungerRate>
+      <baseHungerRate>0.2</baseHungerRate>
       <baseHealthScale>22.0</baseHealthScale>
 		<roamMtbDays>1</roamMtbDays>
 		<mateMtbHours>20</mateMtbHours>
@@ -112,7 +112,7 @@
         </li> 
         <li>
           <def>AnimalAdult</def>
-          <minAge>0.2</minAge>
+          <minAge>0.15</minAge>
           <soundWounded>Pawn_Cougar_Injured</soundWounded>
           <soundDeath>Pawn_Cougar_Death</soundDeath>
           <soundAngry>Pawn_Cougar_Angry</soundAngry>
@@ -601,9 +601,8 @@
 		<label>Kibblebaka</label>
 		<race>FR_Kibblebaka</race>
 		<combatPower>30</combatPower>
-		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>0.2</ecoSystemWeight>
-		<wildGroupSize>2~6</wildGroupSize>
+		<wildGroupSize>1~2</wildGroupSize>
 		<lifeStages>
 			<li>
 				<label>Kibblebaka puppy</label>
@@ -682,11 +681,11 @@
 					</li>
 					<li>
 						<def>AnimalJuvenile</def>
-						<minAge>0.2</minAge>
+						<minAge>0.1</minAge>
 					</li>
 					<li>
 						<def>AnimalAdult</def>
-						<minAge>0.3</minAge>
+						<minAge>0.22</minAge>
 						<soundWounded>Pawn_Bison_Wounded</soundWounded>
 						<soundDeath>Pawn_Bison_Death</soundDeath>
 						<soundCall>Pawn_Bison_Call</soundCall>
