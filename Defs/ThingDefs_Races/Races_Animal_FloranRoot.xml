@@ -843,7 +843,7 @@
 				<body>QuadrupedFloranWithHooves</body>
 				<baseBodySize>3</baseBodySize>
 				<baseHealthScale>28</baseHealthScale>
-				<baseHungerRate>1.5baseHungerRate>
+				<baseHungerRate>2.8</baseHungerRate>
 				<gestationPeriodDays>1</gestationPeriodDays>
 				<roamMtbDays>0.5</roamMtbDays>
 				<lifeExpectancy>12</lifeExpectancy>
