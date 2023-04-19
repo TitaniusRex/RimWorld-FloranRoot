@@ -70,7 +70,7 @@
 		<useMeatFrom>Panther</useMeatFrom>
 		<animalType>Canine</animalType>
 		<body>QuadrupedFloranWithPawsAndTail</body>
-      <baseBodySize>4</baseBodySize>
+      <baseBodySize>3</baseBodySize>
       <baseHungerRate>0.06</baseHungerRate>
       <baseHealthScale>22.0</baseHealthScale>
 		<roamMtbDays>1</roamMtbDays>
@@ -214,8 +214,8 @@
     <label>Potato King</label>
     <race>FR_PotatoKing</race>
 	<labelFemale>Potato Queen</labelFemale>
-    <combatPower>600</combatPower>
-    <ecoSystemWeight>0.50</ecoSystemWeight>
+    <combatPower>700</combatPower>
+    <ecoSystemWeight>0.40</ecoSystemWeight>
 	<wildGroupSize>4~8</wildGroupSize>
 	  
     <lifeStages>
@@ -407,8 +407,8 @@
 		<defName>FR_Ricemonkey</defName>
 		<label>Ricemonkey</label>
 		<race>FR_Ricemonkey</race>
-		<combatPower>300</combatPower>
-		<ecoSystemWeight>0.20</ecoSystemWeight>
+		<combatPower>6000</combatPower>
+		<ecoSystemWeight>0.40</ecoSystemWeight>
 		<wildGroupSize>15~30</wildGroupSize>
 		
 			<lifeStages>
@@ -780,7 +780,7 @@
 		<defName>FR_MaizeBison</defName>
 		<label>Maize Bison</label>
 		<race>FR_MaizeBison</race>
-		<combatPower>2000</combatPower>
+		<combatPower>800</combatPower>
 		<ecoSystemWeight>2</ecoSystemWeight>
 		<wildGroupSize>2~4</wildGroupSize>
 	<lifeStages>
@@ -842,7 +842,7 @@
 			<race>
 				<herdAnimal>true</herdAnimal>
 				<body>QuadrupedFloranWithHooves</body>
-				<baseBodySize>4</baseBodySize>
+				<baseBodySize>3</baseBodySize>
 				<baseHealthScale>28</baseHealthScale>
 				<baseHungerRate>0.425</baseHungerRate>
 				<gestationPeriodDays>1</gestationPeriodDays>
@@ -929,7 +929,7 @@
 		    <defName>FR_BerriKapi</defName>
 			<label>Berri Kapi</label>
 		    <race>FR_BerriKapi</race>
-			<combatPower>500</combatPower>
+			<combatPower>700</combatPower>
 			<ecoSystemWeight>1.1</ecoSystemWeight>
 			<wildGroupSize>2~4</wildGroupSize>
 			
