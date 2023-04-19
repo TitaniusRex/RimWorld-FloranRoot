@@ -161,7 +161,7 @@
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>6</hatcherDaystoHatch>
-				<hatcherPawn>FR_MaizeBison</hatcherPawn>
+				<hatcherPawn>FR_BerriKapi</hatcherPawn>
 			</li>
 		</comps>
 	</ThingDef>
