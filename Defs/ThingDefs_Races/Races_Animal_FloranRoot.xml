@@ -669,7 +669,6 @@
 				<baseHealthScale>30</baseHealthScale>
 				<baseHungerRate>4</baseHungerRate>
 				<gestationPeriodDays>2</gestationPeriodDays>
-				<wildness>1</wildness>
 				<lifeExpectancy>150</lifeExpectancy>
 				<roamMtbDays>1</roamMtbDays>
 				<mateMtbHours>20</mateMtbHours>
