@@ -27,7 +27,7 @@
 			<bloodDef>Filth_Slime</bloodDef>
 			<foodType>CarnivoreAnimalStrict</foodType>
 		    	<leatherDef>Leather_FloranGreen</leatherDef>
-			<manhunterOnTameFailChance>0.80</manhunterOnTameFailChance>
+			<manhunterOnTameFailChance>0.60</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1.00</manhunterOnDamageChance>
 		    	<nameOnTameChance>1</nameOnTameChance>
 			<trainability>None</trainability>
@@ -61,7 +61,7 @@
 			  <eggFertilizationCountMax>1</eggFertilizationCountMax>
 			  <eggLayIntervalDays>1</eggLayIntervalDays>
 			  <eggProgressUnfertilizedMax>0.9</eggProgressUnfertilizedMax>
-			  <eggCountRange>2~5</eggCountRange>
+			  <eggCountRange>1~3</eggCountRange>
 		  </li>
 	  </comps>
  
@@ -86,20 +86,20 @@
       </litterSizeCurve>
       <lifeExpectancy>20</lifeExpectancy>
 			<wildBiomes>
-				<TemperateForest>0.8</TemperateForest>
-				<TemperateSwamp>0.8</TemperateSwamp>
-				<TropicalRainforest>0.8</TropicalRainforest>
-				<TropicalSwamp>0.8</TropicalSwamp>
+				<TemperateForest>0.7</TemperateForest>
+				<TemperateSwamp>0.7</TemperateSwamp>
+				<TropicalRainforest>0.7</TropicalRainforest>
+				<TropicalSwamp>0.7</TropicalSwamp>
 
-				<BorealForest>0.7</BorealForest>
-				<ColdBog>0.7</ColdBog>
-				<Tundra>0.7</Tundra>
-				<IceSheet>0.4</IceSheet>
-				<SeaIce>0.3</SeaIce>
+				<BorealForest>0.5</BorealForest>
+				<ColdBog>0.5</ColdBog>
+				<Tundra>0.5</Tundra>
+				<IceSheet>0.2</IceSheet>
+				<SeaIce>0.1</SeaIce>
 
-				<AridShrubland>1</AridShrubland>
-				<Desert>1</Desert>
-				<ExtremeDesert>1</ExtremeDesert>
+				<AridShrubland>0.5</AridShrubland>
+				<Desert>0.5</Desert>
+				<ExtremeDesert>0.5</ExtremeDesert>
 			</wildBiomes>
       <lifeStageAges>
         <li>
@@ -146,7 +146,6 @@
 	</modExtensions>
     <tradeTags>
 	  <li>AnimalExotic</li>
-      <li>AnimalUncommon</li>
     </tradeTags>
 	  
     <tools>
@@ -216,7 +215,7 @@
 	<labelFemale>Potato Queen</labelFemale>
     <combatPower>700</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
-	<wildGroupSize>4~8</wildGroupSize>
+	<wildGroupSize>2~5</wildGroupSize>
 	  
     <lifeStages>
       <li>
@@ -339,14 +338,14 @@
 			<mateMtbHours>20</mateMtbHours>
 			<!--biom-->
 			<wildBiomes>
-				<TemperateForest>1</TemperateForest>
-				<TemperateSwamp>1</TemperateSwamp>
-				<TropicalRainforest>1.5</TropicalRainforest>
-				<TropicalSwamp>1.5</TropicalSwamp>
+				<TemperateForest>0.7</TemperateForest>
+				<TemperateSwamp>0.7</TemperateSwamp>
+				<TropicalRainforest>1</TropicalRainforest>
+				<TropicalSwamp>1</TropicalSwamp>
 
-				<BorealForest>0.8</BorealForest>
-				<ColdBog>0.3</ColdBog>
-				<Tundra>0.3</Tundra>
+				<BorealForest>0.5</BorealForest>
+				<ColdBog>0.1</ColdBog>
+				<Tundra>0.1</Tundra>
 				
 				<AridShrubland>0.2</AridShrubland>
 				<Desert>0.2</Desert>
@@ -398,8 +397,8 @@
 	</modExtensions>
 
 		<tradeTags>
-			<li>AnimalUncommon</li>
-			</tradeTags>
+			<li>AnimalExotic</li>
+		</tradeTags>
 </ThingDef>
 	
 		
@@ -409,7 +408,7 @@
 		<race>FR_Ricemonkey</race>
 		<combatPower>6000</combatPower>
 		<ecoSystemWeight>0.40</ecoSystemWeight>
-		<wildGroupSize>15~30</wildGroupSize>
+		<wildGroupSize>5~30</wildGroupSize>
 		
 			<lifeStages>
 				<li>
@@ -470,6 +469,12 @@
 				 <eggLayIntervalDays>3</eggLayIntervalDays>
 				 <eggProgressUnfertilizedMax>0.99</eggProgressUnfertilizedMax>
 				 <eggCountRange>2~4</eggCountRange>
+			 </li>
+			 
+			 <li Class="CompProperties_Shearable">
+				 <woolDef>Hay</woolDef>
+				 <shearIntervalDays>2</shearIntervalDays>
+				 <woolAmount>30</woolAmount>
 			 </li>
 		 </comps>
 		<tools>
@@ -591,7 +596,6 @@
 	</modExtensions>
 
 		<tradeTags>
-			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
 	</ThingDef>
@@ -728,7 +732,6 @@
 			</li>
 	</modExtensions>
    		<tradeTags>
-      			<li>AnimalUncommon</li>
 	  		<li>AnimalExotic</li>
     		</tradeTags>
 			<tools>
@@ -896,7 +899,6 @@
 				</li>
 			</modExtensions>
 			<tradeTags>
-      				<li>AnimalUncommon</li>
 	  			<li>AnimalExotic</li>
     			</tradeTags>
 			
