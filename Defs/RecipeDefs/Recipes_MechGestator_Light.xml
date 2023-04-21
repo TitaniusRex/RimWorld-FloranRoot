@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<RecipeDef ParentName="LightMechanoidRecipe">
+		<defName>FRMech_Herdsmech</defName>
+		<label>gestate para</label>
+		<description>Gestate a para mechanoid.</description>
+		<researchPrerequisite>HighMechtech</researchPrerequisite>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreHigh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<FRMech_Herdsmech>1</FRMech_Herdsmech>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>FRMech_Herdsmech</ThingDef>
+		</descriptionHyperlinks>
+	</RecipeDef>
+	
+</Defs>
