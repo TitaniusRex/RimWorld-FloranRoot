@@ -459,7 +459,7 @@
 			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
 			<ComfyTemperatureMax>40</ComfyTemperatureMax>
 			<MoveSpeed>5.0</MoveSpeed>
-			<MarketValue>50</MarketValue>
+			<MarketValue>150</MarketValue>
 		</statBases>
 
 		 <comps>
@@ -546,7 +546,7 @@
 					<li>(3.5, 0)</li>
 				</points>
 			</litterSizeCurve>
-			<lifeExpectancy>8</lifeExpectancy>
+			<lifeExpectancy>4</lifeExpectancy>
 			<!--biom-->
 			<wildBiomes>
 				<TemperateForest>0.1</TemperateForest>
