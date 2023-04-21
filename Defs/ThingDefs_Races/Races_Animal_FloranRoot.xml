@@ -86,20 +86,20 @@
       </litterSizeCurve>
       <lifeExpectancy>20</lifeExpectancy>
 			<wildBiomes>
-				<TemperateForest>0.8</TemperateForest>
-				<TemperateSwamp>0.8</TemperateSwamp>
-				<TropicalRainforest>0.8</TropicalRainforest>
-				<TropicalSwamp>0.8</TropicalSwamp>
+				<TemperateForest>1</TemperateForest>
+				<TemperateSwamp>1</TemperateSwamp>
+				<TropicalRainforest>1</TropicalRainforest>
+				<TropicalSwamp>1</TropicalSwamp>
 
-				<BorealForest>0.8</BorealForest>
-				<ColdBog>0.8</ColdBog>
-				<Tundra>0.8</Tundra>
-				<IceSheet>0.3</IceSheet>
-				<SeaIce>0.3</SeaIce>
+				<BorealForest>1</BorealForest>
+				<ColdBog>1</ColdBog>
+				<Tundra>1</Tundra>
+				<IceSheet>1</IceSheet>
+				<SeaIce>1</SeaIce>
 
-				<AridShrubland>0.5</AridShrubland>
-				<Desert>0.5</Desert>
-				<ExtremeDesert>0.5</ExtremeDesert>
+				<AridShrubland>1</AridShrubland>
+				<Desert>1</Desert>
+				<ExtremeDesert>1</ExtremeDesert>
 			</wildBiomes>
       <lifeStageAges>
         <li>
@@ -594,7 +594,7 @@
 		<defName>FR_Kibblebaka</defName>
 		<label>Kibblebaka</label>
 		<race>FR_Kibblebaka</race>
-		<combatPower>30</combatPower>
+		<combatPower>20</combatPower>
 		<ecoSystemWeight>0.2</ecoSystemWeight>
 		<wildGroupSize>1~2</wildGroupSize>
 		<lifeStages>
