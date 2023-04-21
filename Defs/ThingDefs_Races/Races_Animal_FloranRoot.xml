@@ -86,16 +86,16 @@
       </litterSizeCurve>
       <lifeExpectancy>20</lifeExpectancy>
 			<wildBiomes>
-				<TemperateForest>0.7</TemperateForest>
-				<TemperateSwamp>0.7</TemperateSwamp>
-				<TropicalRainforest>0.7</TropicalRainforest>
-				<TropicalSwamp>0.7</TropicalSwamp>
+				<TemperateForest>0.8</TemperateForest>
+				<TemperateSwamp>0.8</TemperateSwamp>
+				<TropicalRainforest>0.8</TropicalRainforest>
+				<TropicalSwamp>0.8</TropicalSwamp>
 
-				<BorealForest>0.5</BorealForest>
-				<ColdBog>0.5</ColdBog>
-				<Tundra>0.5</Tundra>
-				<IceSheet>0.2</IceSheet>
-				<SeaIce>0.1</SeaIce>
+				<BorealForest>0.8</BorealForest>
+				<ColdBog>0.8</ColdBog>
+				<Tundra>0.8</Tundra>
+				<IceSheet>0.3</IceSheet>
+				<SeaIce>0.3</SeaIce>
 
 				<AridShrubland>0.5</AridShrubland>
 				<Desert>0.5</Desert>
@@ -460,6 +460,7 @@
 			<ComfyTemperatureMax>40</ComfyTemperatureMax>
 			<MoveSpeed>5.0</MoveSpeed>
 			<MarketValue>150</MarketValue>
+			<FilthRate>2</FilthRate>
 		</statBases>
 
 		 <comps>
