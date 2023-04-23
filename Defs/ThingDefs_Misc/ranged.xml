@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>Gun_FRtrankvilizator</defName>
+		<label>sniper rifle</label>
+		<description>An ancient design of precision sniper rifle. Bolt action. It has an exceptionally long range, great accuracy and good power. Because it's so unwieldy, other weapons outclass it at close range.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/SniperRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<weaponClasses>
+			<li>LongShots</li>
+		</weaponClasses>
+		<recipeMaker>
+			<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<displayPriority>425</displayPriority>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>4</Mass>
+			<AccuracyTouch>0.50</AccuracyTouch>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.86</AccuracyMedium>
+			<AccuracyLong>0.88</AccuracyLong>
+			<RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>60</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_FRtrankvilizator</defaultProjectile>
+				<warmupTime>3.5</warmupTime>
+				<range>44.9</range>
+				<muzzleFlashScale>1</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<weaponTags Inherit="False">
+			<li>Gun_FRtrankvilizator</li>
+		</weaponTags><!---->
+	</ThingDef>
+
+	<!--<ThingDef Class="Anesthetize.ThingDef_AnesthetizeBullet" ParentName="BaseBullet">
+	FR.Anesthetize
+	public class ThingDef_AnesthetizeBullet
+
+	<ThingDef ParentName="BaseBullet">-->
+	<ThingDef ParentName="BaseBullet" Class="FloranRootTranquilizer.ThingDefTranquillizerBullet">
+		<!--<ThingDef Class="FR.Anesthetize.ThingDef_AnesthetizeBullet">-->
+		<defName>Bullet_FRtrankvilizator</defName>
+		<label>sniper rifle bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>0</damageAmountBase>
+			<stoppingPower>0</stoppingPower>
+			<speed>100</speed>
+		</projectile>
+			
+			<AddHediffChance>1</AddHediffChance>
+			<HediffToAdd>Anesthetic</HediffToAdd>
+			<!--<HediffToAdd>Anesthetize</HediffToAdd>-->
+			<thingClass>FloranRootTranquilizer.ProjectileTranquillizerBullet</thingClass>
+			<!--<thingClass>FloranRootTranquilizer.ThingDef_AnesthetizeBullet</thingClass>
+		
+		<HediffToAdd>Tranquilizer</HediffToAdd>-->
+
+		
+		<!--
+	
+		<AddHediff>Anesthetize</AddHediff>
+			namespace FloranRootTranquilizer
+			{
+			public class ProjectileTranquillizerBullet-->
+
+		</ThingDef>
+	
+	
+</Defs>
