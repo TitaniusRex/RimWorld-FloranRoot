@@ -27,12 +27,12 @@
 			<bloodDef>Filth_Slime</bloodDef>
 			<foodType>CarnivoreAnimalStrict</foodType>
 		    	<leatherDef>Leather_FloranGreen</leatherDef>
-			<manhunterOnTameFailChance>0.60</manhunterOnTameFailChance>
+			<manhunterOnTameFailChance>0.40</manhunterOnTameFailChance><!--0.60-->
 			<manhunterOnDamageChance>1.00</manhunterOnDamageChance>
 		    	<nameOnTameChance>1</nameOnTameChance>
 			<trainability>None</trainability>
 			<packAnimal>false</packAnimal>
-			<wildness>0.985</wildness>
+			<wildness>0.8</wildness><!--0.985-->
 		    	<gestationPeriodDays>30</gestationPeriodDays>
 			<maxPreyBodySize>99.00</maxPreyBodySize>
 		</race>
