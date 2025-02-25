@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModMetaData>
-    <name>Floran Root</name>
+
+    <ModMetaData>
+        <name>Floran Root</name>
     <author>TitaniusRex</author>
     <supportedVersions>
 		<li>1.4</li>
