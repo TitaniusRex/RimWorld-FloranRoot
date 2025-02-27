@@ -15,7 +15,7 @@ Four types of terrible predators, five pets, a tree, a flower and a drug - that'
 	</description>
 	<modDependencies>
 	    <li>
-			<packageId>Ludeon.RimWorld.Royalty</packageId>
+	        <packageId>Ludeon.RimWorld.Royalty</packageId>
 			<displayName>Royalty</displayName>
 	    </li>
 		<li>
