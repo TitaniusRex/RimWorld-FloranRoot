@@ -4,7 +4,8 @@
         <name>Floran Root</name>
     <author>TitaniusRex</author>
     <supportedVersions>
-		<li>1.4</li>
+	<li>1.4</li>
+	<li>1.5</li>
     </supportedVersions>
 	<packageId>TitaniusRex.FloranRoot</packageId>
     	<description>
