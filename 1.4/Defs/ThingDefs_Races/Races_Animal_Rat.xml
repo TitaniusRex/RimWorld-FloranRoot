@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--__________________________________________________ChocoRat__________________________________________________-->
+
+<ThingDef ParentName="AnimalThingBase" Name="ChocoRatThingBase">
+	<defName>FR_ChocoRat</defName>
+	<label>Choco Rat</label>
+	<description>Rat. More intelligent than the usual kind. A good friend but also a valuable resource.</description>
+	<statBases>
+		<MeatAmount>15</MeatAmount>
+		<MoveSpeed>4.0</MoveSpeed>
+		<MarketValue>335</MarketValue>
+		<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+		<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.6</ToxicEnvironmentResistance>
+	</statBases>
+	<tools>
+		<li>
+			<label>left claw</label>
+			<capacities>
+				<li>Scratch</li>
+			</capacities>
+			<power>3.6</power>
+			<cooldownTime>1.5</cooldownTime>
+			<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+		</li>
+		<li>
+			<label>right claw</label>
+			<capacities>
+				<li>Scratch</li>
+			</capacities>
+			<power>3.6</power>
+			<cooldownTime>1.5</cooldownTime>
+			<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+		</li>
+		<li>
+			<capacities>
+				<li>Bite</li>
+			</capacities>
+			<power>6</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			<chanceFactor>0.7</chanceFactor>
+		</li>
+		<li>
+			<label>head</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>2</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+			<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			<chanceFactor>0.2</chanceFactor>
+		</li>
+	</tools>
+	<race>
+		<useMeatFrom>Rat</useMeatFrom>
+		<body>QuadrupedAnimalWithPaws</body>
+		<baseBodySize>0.4</baseBodySize>
+		<baseHungerRate>0.1</baseHungerRate>
+		<baseHealthScale>0.29</baseHealthScale>
+		<foodType>OmnivoreRoughAnimal</foodType>
+		<leatherDef>Leather_Light</leatherDef>
+		<wildness>0.25</wildness>
+		<trainability>Advanced</trainability>
+		<petness>0.15</petness>
+		<mateMtbHours>8</mateMtbHours>
+		<gestationPeriodDays>5</gestationPeriodDays>
+		<litterSizeCurve>
+			<points>
+				<li>(0.5, 0)</li>
+				<li>(1, 1)</li>
+				<li>(2.2, 1)</li>
+				<li>(2.8, 0)</li>
+			</points>
+		</litterSizeCurve>
+		<lifeExpectancy>6</lifeExpectancy>
+		<wildBiomes>
+			<TemperateForest>0.1</TemperateForest>
+			<TemperateSwamp>0.1</TemperateSwamp>
+			<TropicalRainforest>0.1</TropicalRainforest>
+			<TropicalSwamp>0.1</TropicalSwamp>
+
+			<BorealForest>0.1</BorealForest>
+			<ColdBog>0.1</ColdBog>
+			<Tundra>0.1</Tundra>
+			<IceSheet>0.1</IceSheet>
+			<SeaIce>0.1</SeaIce>
+
+			<AridShrubland>0.1</AridShrubland>
+			<Desert>0.1</Desert>
+			<ExtremeDesert>0.1</ExtremeDesert>
+		</wildBiomes>
+		<lifeStageAges>
+			<li>
+				<def>AnimalBaby</def>
+				<minAge>0</minAge>
+			</li>
+			<li>
+				<def>AnimalJuvenile</def>
+				<minAge>0.3</minAge>
+			</li>
+			<li>
+				<def>AnimalAdult</def>
+				<minAge>0.5</minAge>
+				<soundWounded>Pawn_Boomrat_Wounded</soundWounded>
+				<soundDeath>Pawn_Boomrat_Death</soundDeath>
+				<soundCall>Pawn_Boomrat_Call</soundCall>
+				<soundAngry>Pawn_Boomrat_Angry</soundAngry>
+			</li>
+		</lifeStageAges>
+		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		<headPosPerRotation>
+			<li>(0.0, 0, 0.2)</li>
+			<li>(0.33, 0, 0.03)</li>
+			<li>(0.0, 0, -0.28)</li>
+			<li>(-0.33, 0, 0.03)</li>
+		</headPosPerRotation>
+	</race>
+	<modExtensions>
+		<li Class="CustomButcherFramework.CustomButcherExtension">
+			<customButcherProducts>
+				<Chocolate>75</Chocolate>
+			</customButcherProducts>
+		</li>
+	</modExtensions>
+	<tradeTags>
+		<li>AnimalUncommon</li>
+		<li>AnimalExotic</li>
+	</tradeTags>
+</ThingDef>
+
+<PawnKindDef ParentName="AnimalKindBase" Name="ChocoRatKindBase">
+	<defName>FR_ChocoRat</defName>
+	<label>Choco Rat</label>
+	<race>FR_ChocoRat</race>
+	<combatPower>30</combatPower>
+	<ecoSystemWeight>0.10</ecoSystemWeight>
+	<wildGroupSize>1</wildGroupSize>
+	<lifeStages>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/ChocoRat/ChocoRat</texPath>
+				<drawSize>1.0</drawSize>
+				<shaderType>CutoutComplex</shaderType>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/ChocoRat/Dessicated_ChocoRat</texPath>
+				<drawSize>1.0</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/ChocoRat/ChocoRat</texPath>
+				<drawSize>1.1</drawSize>
+				<shaderType>CutoutComplex</shaderType>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/ChocoRat/Dessicated_ChocoRat</texPath>
+				<drawSize>1.1</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/ChocoRat/ChocoRat</texPath>
+				<drawSize>1.25</drawSize>
+				<shaderType>CutoutComplex</shaderType>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/ChocoRat/Dessicated_ChocoRat</texPath>
+				<drawSize>1.25</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+	</lifeStages>
+</PawnKindDef>
+
+<!--__________________________________________________JellyRat__________________________________________________-->
+
+<ThingDef ParentName="AnimalThingBase" Name="JellyRatThingBase">
+	<defName>FR_JellyRat</defName>
+	<label>Jelly Rat</label>
+	<description>Rat. More intelligent than the usual kind. A good friend but also a valuable resource.</description>
+	<statBases>
+		<MeatAmount>15</MeatAmount>
+
+		<MoveSpeed>4.0</MoveSpeed>
+		<MarketValue>335</MarketValue>
+		<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+		<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.6</ToxicEnvironmentResistance>
+	</statBases>
+	<tools>
+		<li>
+			<label>left claw</label>
+			<capacities>
+				<li>Scratch</li>
+			</capacities>
+			<power>3.6</power>
+			<cooldownTime>1.5</cooldownTime>
+			<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+		</li>
+		<li>
+			<label>right claw</label>
+			<capacities>
+				<li>Scratch</li>
+			</capacities>
+			<power>3.6</power>
+			<cooldownTime>1.5</cooldownTime>
+			<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+		</li>
+		<li>
+			<capacities>
+				<li>Bite</li>
+			</capacities>
+			<power>6</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			<chanceFactor>0.7</chanceFactor>
+		</li>
+		<li>
+			<label>head</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>2</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+			<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			<chanceFactor>0.2</chanceFactor>
+		</li>
+	</tools>
+	<race>
+		<useMeatFrom>Rat</useMeatFrom>
+		<body>QuadrupedAnimalWithPaws</body>
+		<baseBodySize>0.4</baseBodySize>
+		<baseHungerRate>0.1</baseHungerRate>
+		<baseHealthScale>0.29</baseHealthScale>
+		<foodType>OmnivoreRoughAnimal</foodType>
+		<leatherDef>Leather_Light</leatherDef>
+		<wildness>0.25</wildness>
+		<trainability>Advanced</trainability>
+		<petness>0.15</petness>
+		<mateMtbHours>8</mateMtbHours>
+		<gestationPeriodDays>5</gestationPeriodDays>
+		<litterSizeCurve>
+			<points>
+				<li>(0.5, 0)</li>
+				<li>(1, 1)</li>
+				<li>(2.2, 1)</li>
+				<li>(2.8, 0)</li>
+			</points>
+		</litterSizeCurve>
+		<lifeExpectancy>6</lifeExpectancy>
+		<wildBiomes>
+			<TemperateForest>0.1</TemperateForest>
+			<TemperateSwamp>0.1</TemperateSwamp>
+			<TropicalRainforest>0.1</TropicalRainforest>
+			<TropicalSwamp>0.1</TropicalSwamp>
+
+			<BorealForest>0.1</BorealForest>
+			<ColdBog>0.1</ColdBog>
+			<Tundra>0.1</Tundra>
+			<IceSheet>0.1</IceSheet>
+			<SeaIce>0.1</SeaIce>
+
+			<AridShrubland>0.1</AridShrubland>
+			<Desert>0.1</Desert>
+			<ExtremeDesert>0.1</ExtremeDesert>
+		</wildBiomes>
+		<lifeStageAges>
+			<li>
+				<def>AnimalBaby</def>
+				<minAge>0</minAge>
+			</li>
+			<li>
+				<def>AnimalJuvenile</def>
+				<minAge>0.3</minAge>
+			</li>
+			<li>
+				<def>AnimalAdult</def>
+				<minAge>0.5</minAge>
+				<soundWounded>Pawn_Boomrat_Wounded</soundWounded>
+				<soundDeath>Pawn_Boomrat_Death</soundDeath>
+				<soundCall>Pawn_Boomrat_Call</soundCall>
+				<soundAngry>Pawn_Boomrat_Angry</soundAngry>
+			</li>
+		</lifeStageAges>
+		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		<headPosPerRotation>
+			<li>(0.0, 0, 0.2)</li>
+			<li>(0.33, 0, 0.03)</li>
+			<li>(0.0, 0, -0.28)</li>
+			<li>(-0.33, 0, 0.03)</li>
+		</headPosPerRotation>
+	</race>
+	<modExtensions>
+		<li Class="CustomButcherFramework.CustomButcherExtension">
+			<customButcherProducts>
+				<InsectJelly>75</InsectJelly>
+			</customButcherProducts>
+		</li>
+	</modExtensions>
+	<tradeTags>
+		<li>AnimalUncommon</li>
+		<li>AnimalExotic</li>
+	</tradeTags>
+</ThingDef>
+
+<PawnKindDef ParentName="AnimalKindBase" Name="JellyRatKindBase">
+	<defName>FR_JellyRat</defName>
+	<label>Jelly Rat</label>
+	<race>FR_JellyRat</race>
+	<combatPower>30</combatPower>
+	<ecoSystemWeight>0.10</ecoSystemWeight>
+	<wildGroupSize>1</wildGroupSize>
+	<lifeStages>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/JellyRat/JellyRat</texPath>
+				<drawSize>1.0</drawSize>
+				<shaderType>CutoutComplex</shaderType>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/JellyRat/Dessicated_JellyRat</texPath>
+				<drawSize>1.0</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/JellyRat/JellyRat</texPath>
+				<drawSize>1.1</drawSize>
+				<shaderType>CutoutComplex</shaderType>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/JellyRat/Dessicated_JellyRat</texPath>
+				<drawSize>1.1</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/JellyRat/JellyRat</texPath>
+				<drawSize>1.25</drawSize>
+				<shaderType>CutoutComplex</shaderType>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/JellyRat/Dessicated_JellyRat</texPath>
+				<drawSize>1.25</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+	</lifeStages>
+</PawnKindDef>
+
+<!--__________________________________________________FungusRat__________________________________________________-->
+
+<ThingDef ParentName="AnimalThingBase" Name="FungusRatThingBase">
+	<defName>FR_FungusRat</defName>
+	<label>Fungus Rat</label>
+	<description>Rat. More intelligent than the usual kind. A good friend but also a valuable resource.</description>
+	<statBases>
+		<MeatAmount>15</MeatAmount>
+
+		<MoveSpeed>4.0</MoveSpeed>
+		<MarketValue>335</MarketValue>
+		<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+		<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.6</ToxicEnvironmentResistance>
+	</statBases>
+	<tools>
+		<li>
+			<label>left claw</label>
+			<capacities>
+				<li>Scratch</li>
+			</capacities>
+			<power>3.6</power>
+			<cooldownTime>1.5</cooldownTime>
+			<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+		</li>
+		<li>
+			<label>right claw</label>
+			<capacities>
+				<li>Scratch</li>
+			</capacities>
+			<power>3.6</power>
+			<cooldownTime>1.5</cooldownTime>
+			<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+		</li>
+		<li>
+			<capacities>
+				<li>Bite</li>
+			</capacities>
+			<power>6</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			<chanceFactor>0.7</chanceFactor>
+		</li>
+		<li>
+			<label>head</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>2</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+			<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			<chanceFactor>0.2</chanceFactor>
+		</li>
+	</tools>
+	<race>
+		<useMeatFrom>Rat</useMeatFrom>
+		<body>QuadrupedAnimalWithPaws</body>
+		<baseBodySize>0.4</baseBodySize>
+		<baseHungerRate>0.1</baseHungerRate>
+		<baseHealthScale>0.29</baseHealthScale>
+		<foodType>OmnivoreRoughAnimal</foodType>
+		<leatherDef>Leather_Light</leatherDef>
+		<wildness>0.25</wildness>
+		<trainability>Advanced</trainability>
+		<petness>0.15</petness>
+		<mateMtbHours>8</mateMtbHours>
+		<gestationPeriodDays>5</gestationPeriodDays>
+		<litterSizeCurve>
+			<points>
+				<li>(0.5, 0)</li>
+				<li>(1, 1)</li>
+				<li>(2.2, 1)</li>
+				<li>(2.8, 0)</li>
+			</points>
+		</litterSizeCurve>
+		<lifeExpectancy>6</lifeExpectancy>
+		<wildBiomes>
+			<TemperateForest>0.1</TemperateForest>
+			<TemperateSwamp>0.1</TemperateSwamp>
+			<TropicalRainforest>0.1</TropicalRainforest>
+			<TropicalSwamp>0.1</TropicalSwamp>
+
+			<BorealForest>0.1</BorealForest>
+			<ColdBog>0.1</ColdBog>
+			<Tundra>0.1</Tundra>
+			<IceSheet>0.1</IceSheet>
+			<SeaIce>0.1</SeaIce>
+
+			<AridShrubland>0.1</AridShrubland>
+			<Desert>0.1</Desert>
+			<ExtremeDesert>0.1</ExtremeDesert>
+		</wildBiomes>
+		<lifeStageAges>
+			<li>
+				<def>AnimalBaby</def>
+				<minAge>0</minAge>
+			</li>
+			<li>
+				<def>AnimalJuvenile</def>
+				<minAge>0.3</minAge>
+			</li>
+			<li>
+				<def>AnimalAdult</def>
+				<minAge>0.5</minAge>
+				<soundWounded>Pawn_Boomrat_Wounded</soundWounded>
+				<soundDeath>Pawn_Boomrat_Death</soundDeath>
+				<soundCall>Pawn_Boomrat_Call</soundCall>
+				<soundAngry>Pawn_Boomrat_Angry</soundAngry>
+			</li>
+		</lifeStageAges>
+		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		<headPosPerRotation>
+			<li>(0.0, 0, 0.2)</li>
+			<li>(0.33, 0, 0.03)</li>
+			<li>(0.0, 0, -0.28)</li>
+			<li>(-0.33, 0, 0.03)</li>
+		</headPosPerRotation>
+	</race>
+	<modExtensions>
+		<li Class="CustomButcherFramework.CustomButcherExtension">
+			<customButcherProducts>
+				<RawFungus>75</RawFungus>
+			</customButcherProducts>
+		</li>
+	</modExtensions>
+	<tradeTags>
+		<li>AnimalUncommon</li>
+		<li>AnimalExotic</li>
+	</tradeTags>
+</ThingDef>
+
+<PawnKindDef ParentName="AnimalKindBase" Name="FungusRatKindBase">
+	<defName>FR_FungusRat</defName>
+	<label>Fungus Rat</label>
+	<race>FR_FungusRat</race>
+	<combatPower>30</combatPower>
+	<ecoSystemWeight>0.10</ecoSystemWeight>
+	<wildGroupSize>1</wildGroupSize>
+	<lifeStages>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/FungusRat/FungusRat</texPath>
+				<drawSize>1.0</drawSize>
+				<shaderType>CutoutComplex</shaderType>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/FungusRat/Dessicated_FungusRat</texPath>
+				<drawSize>1.0</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/FungusRat/FungusRat</texPath>
+				<drawSize>1.1</drawSize>
+				<shaderType>CutoutComplex</shaderType>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/FungusRat/Dessicated_FungusRat</texPath>
+				<drawSize>1.1</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/FungusRat/FungusRat</texPath>
+				<drawSize>1.25</drawSize>
+				<shaderType>CutoutComplex</shaderType>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/FungusRat/Dessicated_FungusRat</texPath>
+				<drawSize>1.25</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+	</lifeStages>
+</PawnKindDef>
+
+<!--__________________________________________________PitaRat__________________________________________________-->
+
+<ThingDef ParentName="AnimalThingBase" Name="PitaRatThingBase">
+	<defName>FR_PitaRat</defName>
+	<label>Pita Rat</label>
+	<description>Rat. More intelligent than the usual kind. A good friend but also a valuable resource.</description>
+	<statBases>
+		<MeatAmount>15</MeatAmount>
+
+		<MoveSpeed>4.0</MoveSpeed>
+		<MarketValue>335</MarketValue>
+		<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+		<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.6</ToxicEnvironmentResistance>
+	</statBases>
+	<tools>
+		<li>
+			<label>left claw</label>
+			<capacities>
+				<li>Scratch</li>
+			</capacities>
+			<power>3.6</power>
+			<cooldownTime>1.5</cooldownTime>
+			<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+		</li>
+		<li>
+			<label>right claw</label>
+			<capacities>
+				<li>Scratch</li>
+			</capacities>
+			<power>3.6</power>
+			<cooldownTime>1.5</cooldownTime>
+			<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+		</li>
+		<li>
+			<capacities>
+				<li>Bite</li>
+			</capacities>
+			<power>6</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			<chanceFactor>0.7</chanceFactor>
+		</li>
+		<li>
+			<label>head</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>2</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+			<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			<chanceFactor>0.2</chanceFactor>
+		</li>
+	</tools>
+	<race>
+		<useMeatFrom>Rat</useMeatFrom>
+		<body>QuadrupedAnimalWithPaws</body>
+		<baseBodySize>0.4</baseBodySize>
+		<baseHungerRate>0.1</baseHungerRate>
+		<baseHealthScale>0.29</baseHealthScale>
+		<foodType>OmnivoreRoughAnimal</foodType>
+		<leatherDef>Leather_Light</leatherDef>
+		<wildness>0.25</wildness>
+		<trainability>Advanced</trainability>
+		<petness>0.15</petness>
+		<mateMtbHours>8</mateMtbHours>
+		<gestationPeriodDays>5</gestationPeriodDays>
+		<litterSizeCurve>
+			<points>
+				<li>(0.5, 0)</li>
+				<li>(1, 1)</li>
+				<li>(2.2, 1)</li>
+				<li>(2.8, 0)</li>
+			</points>
+		</litterSizeCurve>
+		<lifeExpectancy>6</lifeExpectancy>
+		<wildBiomes>
+			<TemperateForest>0.1</TemperateForest>
+			<TemperateSwamp>0.1</TemperateSwamp>
+			<TropicalRainforest>0.1</TropicalRainforest>
+			<TropicalSwamp>0.1</TropicalSwamp>
+
+			<BorealForest>0.1</BorealForest>
+			<ColdBog>0.1</ColdBog>
+			<Tundra>0.1</Tundra>
+			<IceSheet>0.1</IceSheet>
+			<SeaIce>0.1</SeaIce>
+
+			<AridShrubland>0.1</AridShrubland>
+			<Desert>0.1</Desert>
+			<ExtremeDesert>0.1</ExtremeDesert>
+		</wildBiomes>
+		<lifeStageAges>
+			<li>
+				<def>AnimalBaby</def>
+				<minAge>0</minAge>
+			</li>
+			<li>
+				<def>AnimalJuvenile</def>
+				<minAge>0.3</minAge>
+			</li>
+			<li>
+				<def>AnimalAdult</def>
+				<minAge>0.5</minAge>
+				<soundWounded>Pawn_Boomrat_Wounded</soundWounded>
+				<soundDeath>Pawn_Boomrat_Death</soundDeath>
+				<soundCall>Pawn_Boomrat_Call</soundCall>
+				<soundAngry>Pawn_Boomrat_Angry</soundAngry>
+			</li>
+		</lifeStageAges>
+		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		<headPosPerRotation>
+			<li>(0.0, 0, 0.2)</li>
+			<li>(0.33, 0, 0.03)</li>
+			<li>(0.0, 0, -0.28)</li>
+			<li>(-0.33, 0, 0.03)</li>
+		</headPosPerRotation>
+	</race>
+	<modExtensions>
+		<li Class="CustomButcherFramework.CustomButcherExtension">
+			<customButcherProducts>
+				<RawAgave>75</RawAgave>
+			</customButcherProducts>
+		</li>
+	</modExtensions>
+	<tradeTags>
+		<li>AnimalUncommon</li>
+		<li>AnimalExotic</li>
+	</tradeTags>
+</ThingDef>
+
+<PawnKindDef ParentName="AnimalKindBase" Name="PitaRatKindBase">
+	<defName>FR_PitaRat</defName>
+	<label>Pita Rat</label>
+	<race>FR_PitaRat</race>
+	<combatPower>30</combatPower>
+	<ecoSystemWeight>0.10</ecoSystemWeight>
+	<wildGroupSize>1</wildGroupSize>
+	<lifeStages>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/PitaRat/PitaRat</texPath>
+				<drawSize>1.0</drawSize>
+				<shaderType>CutoutComplex</shaderType>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/PitaRat/Dessicated_PitaRat</texPath>
+				<drawSize>1.0</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/PitaRat/PitaRat</texPath>
+				<drawSize>1.1</drawSize>
+				<shaderType>CutoutComplex</shaderType>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/PitaRat/Dessicated_PitaRat</texPath>
+				<drawSize>1.1</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/PitaRat/PitaRat</texPath>
+				<drawSize>1.25</drawSize>
+				<shaderType>CutoutComplex</shaderType>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/PitaRat/Dessicated_PitaRat</texPath>
+				<drawSize>1.25</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+	</lifeStages>
+</PawnKindDef>
+<!--__________________________________________________HopsRat__________________________________________________-->
+
+<ThingDef ParentName="AnimalThingBase" Name="HopsRatThingBase">
+	<defName>FR_HopsRat</defName>
+	<label>Hops Rat</label>
+	<description>Rat. More intelligent than the usual kind. A good friend but also a valuable resource.</description>
+	<statBases>
+		<MeatAmount>15</MeatAmount>
+
+		<MoveSpeed>4.0</MoveSpeed>
+		<MarketValue>335</MarketValue>
+		<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+		<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.6</ToxicEnvironmentResistance>
+	</statBases>
+	<tools>
+		<li>
+			<label>left claw</label>
+			<capacities>
+				<li>Scratch</li>
+			</capacities>
+			<power>3.6</power>
+			<cooldownTime>1.5</cooldownTime>
+			<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+		</li>
+		<li>
+			<label>right claw</label>
+			<capacities>
+				<li>Scratch</li>
+			</capacities>
+			<power>3.6</power>
+			<cooldownTime>1.5</cooldownTime>
+			<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+		</li>
+		<li>
+			<capacities>
+				<li>Bite</li>
+			</capacities>
+			<power>6</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			<chanceFactor>0.7</chanceFactor>
+		</li>
+		<li>
+			<label>head</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>2</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+			<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			<chanceFactor>0.2</chanceFactor>
+		</li>
+	</tools>
+	<race>
+		<useMeatFrom>Rat</useMeatFrom>
+		<body>QuadrupedAnimalWithPaws</body>
+		<baseBodySize>0.4</baseBodySize>
+		<baseHungerRate>0.1</baseHungerRate>
+		<baseHealthScale>0.29</baseHealthScale>
+		<foodType>OmnivoreRoughAnimal</foodType>
+		<leatherDef>Leather_Light</leatherDef>
+		<wildness>0.25</wildness>
+		<trainability>Advanced</trainability>
+		<petness>0.15</petness>
+		<mateMtbHours>8</mateMtbHours>
+		<gestationPeriodDays>5</gestationPeriodDays>
+		<litterSizeCurve>
+			<points>
+				<li>(0.5, 0)</li>
+				<li>(1, 1)</li>
+				<li>(2.2, 1)</li>
+				<li>(2.8, 0)</li>
+			</points>
+		</litterSizeCurve>
+		<lifeExpectancy>6</lifeExpectancy>
+		<wildBiomes>
+			<TemperateForest>0.1</TemperateForest>
+			<TemperateSwamp>0.1</TemperateSwamp>
+			<TropicalRainforest>0.1</TropicalRainforest>
+			<TropicalSwamp>0.1</TropicalSwamp>
+
+			<BorealForest>0.1</BorealForest>
+			<ColdBog>0.1</ColdBog>
+			<Tundra>0.1</Tundra>
+			<IceSheet>0.1</IceSheet>
+			<SeaIce>0.1</SeaIce>
+
+			<AridShrubland>0.1</AridShrubland>
+			<Desert>0.1</Desert>
+			<ExtremeDesert>0.1</ExtremeDesert>
+		</wildBiomes>
+		<lifeStageAges>
+			<li>
+				<def>AnimalBaby</def>
+				<minAge>0</minAge>
+			</li>
+			<li>
+				<def>AnimalJuvenile</def>
+				<minAge>0.3</minAge>
+			</li>
+			<li>
+				<def>AnimalAdult</def>
+				<minAge>0.5</minAge>
+				<soundWounded>Pawn_Boomrat_Wounded</soundWounded>
+				<soundDeath>Pawn_Boomrat_Death</soundDeath>
+				<soundCall>Pawn_Boomrat_Call</soundCall>
+				<soundAngry>Pawn_Boomrat_Angry</soundAngry>
+			</li>
+		</lifeStageAges>
+		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		<headPosPerRotation>
+			<li>(0.0, 0, 0.2)</li>
+			<li>(0.33, 0, 0.03)</li>
+			<li>(0.0, 0, -0.28)</li>
+			<li>(-0.33, 0, 0.03)</li>
+		</headPosPerRotation>
+	</race>
+	<modExtensions>
+		<li Class="CustomButcherFramework.CustomButcherExtension">
+			<customButcherProducts>
+				<RawHops>75</RawHops>
+			</customButcherProducts>
+		</li>
+	</modExtensions>
+	<tradeTags>
+		<li>AnimalUncommon</li>
+		<li>AnimalExotic</li>
+	</tradeTags>
+</ThingDef>
+
+<PawnKindDef ParentName="AnimalKindBase" Name="HopsRatKindBase">
+	<defName>FR_HopsRat</defName>
+	<label>Hops Rat</label>
+	<race>FR_HopsRat</race>
+	<combatPower>30</combatPower>
+	<ecoSystemWeight>0.10</ecoSystemWeight>
+	<wildGroupSize>1</wildGroupSize>
+	<lifeStages>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/HopsRat/HopsRat</texPath>
+				<drawSize>1.0</drawSize>
+				<shaderType>CutoutComplex</shaderType>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/HopsRat/Dessicated_HopsRat</texPath>
+				<drawSize>1.0</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/HopsRat/HopsRat</texPath>
+				<drawSize>1.1</drawSize>
+				<shaderType>CutoutComplex</shaderType>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/HopsRat/Dessicated_HopsRat</texPath>
+				<drawSize>1.1</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/HopsRat/HopsRat</texPath>
+				<drawSize>1.25</drawSize>
+				<shaderType>CutoutComplex</shaderType>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/FloranRoot/FloranRat/HopsRat/Dessicated_HopsRat</texPath>
+				<drawSize>1.25</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+	</lifeStages>
+</PawnKindDef>
+</Defs>
