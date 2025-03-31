@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	
+	<ThingDef ParentName="LeatherBase">
+		<defName>Leather_FloranGreen</defName>
+		<label>Floran skin</label>
+		<description>The skin of modified animals has been modified in order to keep the mass of creatures inside, from which such indicators of strength and plasticity. Weather protection was not a priority.</description>
+		<graphicData>
+			<color>(92,136,19)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>14.0</MarketValue>
+			<StuffPower_Armor_Sharp>2.50</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1.50</StuffPower_Armor_Blunt>
+			<StuffPower_Insulation_Cold>7</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>7</StuffPower_Insulation_Heat>
+		</statBases>
+
+		<stuffProps>
+			<color>(92,136,19)</color>
+			<commonality>0.0025</commonality>
+			<statFactors>
+				<MaxHitPoints>3.0</MaxHitPoints>
+				<Beauty>3</Beauty>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	
+
+</Defs>
