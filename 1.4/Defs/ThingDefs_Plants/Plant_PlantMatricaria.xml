@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<ThingDef ParentName="PlantBase">
+		<defName>FR_PlantMatricaria</defName>
+		<label>Matricaria</label>
+		<description>Genus of annual flowering plants of the family Asteraceae, or Compositae. Combines many types of low fragrant herbs that bloom from the first year of life. Since antiquity, it has been used in scientific and folk medicine, and is still one of the most sought-after medicinal plants.</description>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<Nutrition>0.2</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/PlantMatricaria/PlantMatricaria</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>14</pathCost>
+		<ingestible/>
+		<plant>
+			<sowWork>400</sowWork>
+			<growDays>9.00</growDays>
+			<dieIfLeafless>true</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>FR_Matricariaflow</harvestedThingDef>
+			<harvestYield>8</harvestYield>
+			<sowMinSkill>6</sowMinSkill>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<immatureGraphicPath>Things/Plant/PlantMatricaria/PlantImmature/Matricaria_Immature</immatureGraphicPath>
+			<topWindExposure>0.1</topWindExposure>
+			<visualSizeRange>0.3~1.0</visualSizeRange>
+			<wildOrder>2</wildOrder>
+			<fertilityMin>1</fertilityMin>
+			<fertilitySensitivity>1.5</fertilitySensitivity>
+		</plant>
+
+	</ThingDef>
+</Defs>
