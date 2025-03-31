@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Abstract="True" Name="EggFertAvesome" ParentName="EggBase" >
+        <tickerType>Normal</tickerType>
+        <ingestible>
+            <preferability>DesperateOnly</preferability>
+        </ingestible>
+        <thingCategories>
+             <li>EggsFertilized</li>
+        </thingCategories>
+         <comps>
+            <li Class="CompProperties_TemperatureRuinable">
+            <minSafeTemperature>-1200</minSafeTemperature>
+            <maxSafeTemperature>1200</maxSafeTemperature>
+            <progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
+         </li>
+         </comps>
+     </ThingDef>
+
+  <!-- PotatoKingEgg -->
+  
+  <ThingDef ParentName="EggFertAvesome">
+	  
+    <defName>FR_PotatoKingEgg</defName>
+    <label>Potatoking grain</label>
+    <description>"Seeds" of the Potato King. Weather conditions will not affect "germination". If intentionally not destroyed, there is a near-zero chance that it will happen on its own. Highly nutritious, but there is a possibility of food poisoning. Recycling is recommended for population control.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Resource/AnimalProductRaw/FloranEgg</texPath>
+      <color>(184, 134, 11)</color>
+		<drawSize>1</drawSize>
+    </graphicData>
+	  <statBases>
+		  <Mass>1.15</Mass>
+		  <MaxHitPoints>120</MaxHitPoints>
+		  <DeteriorationRate>0.3</DeteriorationRate>
+		  <Flammability>0</Flammability>
+		  <Nutrition>2</Nutrition>
+		  <FoodPoisonChanceFixedHuman>0.1</FoodPoisonChanceFixedHuman>
+	      <MarketValue>14.0</MarketValue>
+    </statBases>
+    <comps>
+		<li Class="CompProperties_Hatcher">
+			<hatcherDaystoHatch>6</hatcherDaystoHatch>
+			<hatcherPawn>FR_PotatoKing</hatcherPawn>
+		</li>
+	  </comps>
+  </ThingDef>
+
+	<!-- RicemonkeyEgg -->
+
+	<ThingDef ParentName="EggFertAvesome">
+
+		<defName>FR_RicemonkeyEgg</defName>
+		<label>Ricemonkey grain</label>
+		<description>"Seeds" of the Rice Monkey. Weather conditions will not affect "germination". If intentionally not destroyed, there is a near-zero chance that it will happen on its own. Normal nutrition, there is a possibility of food poisoning. For population control, it is HIGHLY recommended to recycle</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/FloranEgg</texPath>
+			<color>(70, 185, 122)</color>
+			<drawSize>0.2</drawSize>
+		</graphicData>
+		<statBases>
+			<Mass>0.10</Mass>
+			<MaxHitPoints>120</MaxHitPoints>
+			<DeteriorationRate>0.3</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Nutrition>0.10</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.1</FoodPoisonChanceFixedHuman>
+			<MarketValue>2.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>2.5</hatcherDaystoHatch>
+				<hatcherPawn>FR_Ricemonkey</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- KibblebakaEgg -->
+
+	<ThingDef ParentName="EggFertAvesome">
+
+		<defName>FR_KibblebakaEgg</defName>
+		<label>Kibblebaka grain</label>
+		<description>"Seeds" of Kibblebaka. Weather conditions will not affect "germination". If intentionally not destroyed, there is a near-zero chance that it will happen on its own. Nutritious, extremely high risk of food poisoning.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/FloranEgg</texPath>
+			<color>(106, 127, 122)</color>
+			<drawSize>0.2</drawSize>
+		</graphicData>
+		<statBases>
+			<Mass>0.10</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+			<DeteriorationRate>1</DeteriorationRate>
+			<Flammability>1</Flammability>
+			<Nutrition>0.5</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.55</FoodPoisonChanceFixedHuman>
+			<MarketValue>1.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>4</hatcherDaystoHatch>
+				<hatcherPawn>FR_Kibblebaka</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- MaizeBisonEgg -->
+
+    <ThingDef ParentName="EggFertAvesome">
+		<defName>FR_MaizeBisonEgg</defName>
+	    <label>Maize Bison grain</label>
+		<description>"Seeds" of Maize Bison. Weather conditions will not affect "germination". If intentionally not destroyed, there is a near-zero chance that it will happen on its own. Highly nutritious, minimal chance of food poisoning.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/FloranEgg</texPath>
+			<color>(216, 166, 300)</color>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<statBases>
+			<Mass>1.5</Mass>
+			<MaxHitPoints>120</MaxHitPoints>
+			<DeteriorationRate>0.3</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Nutrition>3</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.01</FoodPoisonChanceFixedHuman>
+			<MarketValue>120.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>14</hatcherDaystoHatch>
+				<hatcherPawn>FR_MaizeBison</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- BerriKapiEgg -->
+
+	<ThingDef ParentName="EggFertAvesome">
+		<defName>FR_BerriKapiEgg</defName>
+		<label>Berri Kapi grain</label>
+		<description>"Seeds" Berry Kapi. Weather conditions will not affect "germination". If intentionally not destroyed, there is a near-zero chance that it will happen on its own. Highly nutritious, minimal chance of food poisoning.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/FloranEgg</texPath>
+			<color>(16, 66, 300)</color>
+			<drawSize>0.5</drawSize>
+		</graphicData>
+		<statBases>
+			<Mass>1</Mass>
+			<MaxHitPoints>120</MaxHitPoints>
+			<DeteriorationRate>0.3</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Nutrition>1</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.01</FoodPoisonChanceFixedHuman>
+			<MarketValue>90.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>6</hatcherDaystoHatch>
+				<hatcherPawn>FR_BerriKapi</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+	
+</Defs>
