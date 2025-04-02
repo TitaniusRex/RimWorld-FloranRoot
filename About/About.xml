@@ -24,7 +24,7 @@ Four types of terrible predators, five pets, a tree, a flower and a drug - that'
 	    <displayName>Ideology</displayName>
 	</li>
 	<li>
-		<packageId>Ludeon.RimWorld.Biotech</packageId>
+	    <packageId>Ludeon.RimWorld.Biotech</packageId>
 		<displayName>Biotech</displayName>
 	</li>
 	<li>
