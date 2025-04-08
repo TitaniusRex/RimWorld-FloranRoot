@@ -32,7 +32,7 @@ Four types of terrible predators, five pets, a tree, a flower and a drug - that'
 	    <displayName>Custom Butcher Framework</displayName>
 	    <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2848410310</steamWorkshopUrl>
 	</li>
-	</modDependencies>
+    </modDependencies>
 	
 	<loadAfter>
 	    <li>Ludeon.RimWorld</li>
