@@ -31,7 +31,7 @@ Four types of terrible predators, five pets, a tree, a flower and a drug - that'
 	    <packageId>epicfloor.CustomButcherFramework</packageId>
 	    <displayName>Custom Butcher Framework</displayName>
 	    <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2848410310</steamWorkshopUrl>
-		</li>
+	</li>
 	</modDependencies>
 	
 	<loadAfter>
