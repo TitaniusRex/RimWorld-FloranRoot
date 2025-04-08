@@ -37,7 +37,7 @@ Four types of terrible predators, five pets, a tree, a flower and a drug - that'
     <loadAfter>
 	<li>Ludeon.RimWorld</li>
 	<li>Ludeon.RimWorld.Royalty</li>
-	    <li>Ludeon.RimWorld.Ideology</li>
+	<li>Ludeon.RimWorld.Ideology</li>
 	    <li>Ludeon.RimWorld.Biotech</li>
 	    <li>epicfloor.CustomButcherFramework</li>
     </loadAfter>
