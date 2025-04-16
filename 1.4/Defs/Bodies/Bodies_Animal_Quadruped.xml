@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
     <Defs>
-	<BodyDef>
+        <BodyDef>
 	<defName>QuadrupedFloranWithPawsAndTail</defName>
 	<label>quadruped animal</label>
 	<corePart>
-		<def>Body</def>
+	    <def>Body</def>
 		<height>Middle</height>
 		<depth>Outside</depth>
 		<parts>
