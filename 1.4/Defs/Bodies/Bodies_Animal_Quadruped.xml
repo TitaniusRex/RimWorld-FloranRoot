@@ -14,7 +14,7 @@
 			<coverage>0.07</coverage>
 		    </li>
 		    <li>
-				<def>Spine</def>
+			<def>Spine</def>
 				<coverage>0.03</coverage>
 				<depth>Inside</depth>
 		    </li>
