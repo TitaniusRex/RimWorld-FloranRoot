@@ -32,7 +32,7 @@
 			        <def>Head</def>
 				<coverage>0.75</coverage>
 				<groups>
-							<li>HeadAttackTool</li>
+				    <li>HeadAttackTool</li>
 				</groups>
 				<parts>
 				    <li>
