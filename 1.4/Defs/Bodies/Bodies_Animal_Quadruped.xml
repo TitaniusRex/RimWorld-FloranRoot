@@ -61,7 +61,7 @@
 								<def>Ear</def>
 								<customLabel>left ear</customLabel>
 								<coverage>0.08</coverage>
-							</li>
+				    </li>
 							<li>
 								<def>Ear</def>
 								<customLabel>right ear</customLabel>
