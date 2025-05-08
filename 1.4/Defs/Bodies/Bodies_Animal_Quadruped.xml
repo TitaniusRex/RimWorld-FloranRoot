@@ -70,7 +70,7 @@
 				    <li>
 								<def>Nose</def>
 								<coverage>0.1</coverage>
-							</li>
+				    </li>
 							<li>
 								<def>AnimalJaw</def>
 								<coverage>0.1</coverage>
