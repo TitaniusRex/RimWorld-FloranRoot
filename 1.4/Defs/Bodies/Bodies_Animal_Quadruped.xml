@@ -79,8 +79,8 @@
 					    </groups>
 				    </li>
 				</parts>
-					</li>
-				</parts>
+			    </li>
+			</parts>
 			</li>
 			<li>
 				<def>Leg</def>
@@ -199,7 +199,7 @@
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>Neck</def>
+				    <def>Neck</def>
 					<coverage>0.10</coverage>
 					<height>Top</height>
 					<parts>
