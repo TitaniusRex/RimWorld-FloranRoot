@@ -104,7 +104,7 @@
 			<coverage>0.07</coverage>
 			<height>Bottom</height>
 			<parts>
-					<li>
+			    <li>
 						<def>Paw</def>
 						<customLabel>front right paw</customLabel>
 						<coverage>0.15</coverage>
