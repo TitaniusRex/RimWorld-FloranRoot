@@ -246,7 +246,7 @@
 									<coverage>0.1</coverage>
 								</li>
 								<li>
-									<def>AnimalJaw</def>
+								    <def>AnimalJaw</def>
 									<coverage>0.1</coverage>
 									<groups>
 										<li>Teeth</li>
