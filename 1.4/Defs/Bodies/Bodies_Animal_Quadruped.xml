@@ -119,7 +119,7 @@
 			<customLabel>rear left leg</customLabel>
 			<coverage>0.07</coverage>
 			<height>Bottom</height>
-				<parts>
+			<parts>
 			<li>
 				    <def>Paw</def>
 				    <customLabel>rear left paw</customLabel>
