@@ -120,12 +120,12 @@
 			<coverage>0.07</coverage>
 			<height>Bottom</height>
 			<parts>
-			<li>
+			    <li>
 			    <def>Paw</def>
 			    <customLabel>rear left paw</customLabel>
 			    <coverage>0.15</coverage>
 			</li>
-			</parts>
+		        </parts>
 			</li>
 			<li>
 			    <def>Leg</def>
