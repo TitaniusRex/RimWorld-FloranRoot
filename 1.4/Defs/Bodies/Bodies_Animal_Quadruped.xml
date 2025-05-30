@@ -126,7 +126,7 @@
 			        <coverage>0.15</coverage>
 			    </li>
 		        </parts>
-			</li>
+		    </li>
 			<li>
 			    <def>Leg</def>
 				<customLabel>rear right leg</customLabel>
