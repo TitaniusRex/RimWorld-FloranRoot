@@ -139,7 +139,7 @@
 						<coverage>0.15</coverage>
 					</li>
 				</parts>
-			</li>
+		    </li>
 		</parts>
 	</corePart>
 </BodyDef>
