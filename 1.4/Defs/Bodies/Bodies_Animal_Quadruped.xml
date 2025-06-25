@@ -153,7 +153,7 @@
 			<height>Middle</height>
 			<depth>Outside</depth>
 			<parts>
-				<li>
+			    <li>
 					<def>Tail</def>
 					<coverage>0.02</coverage>
 					<height>Bottom</height>
