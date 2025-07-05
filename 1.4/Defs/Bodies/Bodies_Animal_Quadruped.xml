@@ -149,7 +149,7 @@
 	<defName>FloranMonkey</defName>
 	<label>Ricemonkey</label>
 	<corePart>
-			<def>Torso</def>
+	    <def>Torso</def>
 			<height>Middle</height>
 			<depth>Outside</depth>
 			<parts>
