@@ -147,7 +147,7 @@
 	
     <BodyDef>
 	<defName>FloranMonkey</defName>
-		<label>Ricemonkey</label>
+	<label>Ricemonkey</label>
 		<corePart>
 			<def>Torso</def>
 			<height>Middle</height>
