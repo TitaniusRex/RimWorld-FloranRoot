@@ -142,7 +142,7 @@
 		    </li>
 		</parts>
 	</corePart>
-</BodyDef>
+    </BodyDef>
 	
 	
 	<BodyDef>
