@@ -211,7 +211,7 @@
 							</groups>
 							<parts>
 								<li>
-									<def>Skull</def>
+								    <def>Skull</def>
 									<coverage>0.18</coverage>
 									<depth>Inside</depth>
 									<parts>
