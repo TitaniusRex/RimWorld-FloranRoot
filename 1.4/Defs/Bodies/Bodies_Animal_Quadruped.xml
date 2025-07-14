@@ -159,7 +159,7 @@
 			<height>Bottom</height>
 				</li>
 				<li>
-					<def>Clavicle</def>
+				    <def>Clavicle</def>
 					<customLabel>left clavicle</customLabel>
 					<coverage>0.01</coverage>
 					<height>Top</height>
