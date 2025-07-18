@@ -160,7 +160,7 @@
 		</li>
 		<li>
 		    <def>Clavicle</def>
-				    <customLabel>left clavicle</customLabel>
+		    <customLabel>left clavicle</customLabel>
 					<coverage>0.01</coverage>
 					<height>Top</height>
 					<depth>Inside</depth>
