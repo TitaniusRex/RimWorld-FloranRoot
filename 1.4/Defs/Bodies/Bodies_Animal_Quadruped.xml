@@ -163,7 +163,7 @@
 		    <customLabel>left clavicle</customLabel>
 		    <coverage>0.01</coverage>
 		    <height>Top</height>
-					<depth>Inside</depth>
+		    <depth>Inside</depth>
 				</li>
 				<li>
 					<def>Clavicle</def>
