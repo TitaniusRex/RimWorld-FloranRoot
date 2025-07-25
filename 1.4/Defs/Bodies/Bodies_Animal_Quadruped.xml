@@ -151,7 +151,7 @@
 	<corePart>
 	<def>Torso</def>
 	<height>Middle</height>
-	    <depth>Outside</depth>
+	<depth>Outside</depth>
 	    <parts>
 		<li>
 		    <def>Tail</def>
