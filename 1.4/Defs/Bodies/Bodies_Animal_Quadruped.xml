@@ -152,7 +152,7 @@
 	<def>Torso</def>
 	<height>Middle</height>
 	<depth>Outside</depth>
-	    <parts>
+	<parts>
 		<li>
 		    <def>Tail</def>
 		    <coverage>0.02</coverage>
