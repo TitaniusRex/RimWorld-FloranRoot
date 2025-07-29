@@ -166,7 +166,7 @@
 		    <depth>Inside</depth>
 	    </li>
 	    <li>
-					<def>Clavicle</def>
+		    <def>Clavicle</def>
 					<customLabel>right clavicle</customLabel>
 					<coverage>0.01</coverage>
 					<height>Top</height>
