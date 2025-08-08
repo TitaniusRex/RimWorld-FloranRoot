@@ -2,7 +2,7 @@
 
     <Defs>
         <BodyDef>
-	<defName>QuadrupedFloranWithPawsAndTail</defName>
+	    <defName>QuadrupedFloranWithPawsAndTail</defName>
 	<label>quadruped animal</label>
 	<corePart>
 	    <def>Body</def>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
