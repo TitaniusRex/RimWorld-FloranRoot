@@ -42,8 +42,8 @@
 					<parts>
 					    <li>
 					        <def>Brain</def>
-						<coverage>0.7</coverage>
-						<depth>Inside</depth>
+						    <coverage>0.7</coverage>
+						    <depth>Inside</depth>
 					    </li>
 					</parts>
 				    </li>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
