@@ -187,7 +187,7 @@
 					<coverage>0.01</coverage>
 					<height>Bottom</height>
 					<depth>Inside</depth>
-				</li>
+		</li>
 				<li>
 					<def>Spine</def>
 					<coverage>0.03</coverage>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
