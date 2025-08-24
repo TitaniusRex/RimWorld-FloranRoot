@@ -6,7 +6,7 @@
 	    <label>quadruped animal</label>
 	    <corePart>
 	        <def>Body</def>
-		        <height>Middle</height>
+		    <height>Middle</height>
 		        <depth>Outside</depth>
 		        <parts>
 		        <li>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
