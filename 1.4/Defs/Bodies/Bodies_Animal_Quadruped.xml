@@ -25,7 +25,7 @@
 		    </li>
 		    <li>
 			    <def>Neck</def>
-			<coverage>0.20</coverage>
+			    <coverage>0.20</coverage>
 			<height>Top</height>
 			<parts>
 			    <li>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
