@@ -24,7 +24,7 @@
 			        <depth>Inside</depth>
 		    </li>
 		    <li>
-			<def>Neck</def>
+			    <def>Neck</def>
 			<coverage>0.20</coverage>
 			<height>Top</height>
 			<parts>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
