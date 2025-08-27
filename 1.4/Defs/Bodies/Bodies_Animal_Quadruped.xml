@@ -38,7 +38,7 @@
 				<li>
 				    <def>Skull</def>
 					<coverage>0.25</coverage>
-					    <depth>Inside</depth>
+					<depth>Inside</depth>
 					    <parts>
 					        <li>
 					            <def>Brain</def>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
