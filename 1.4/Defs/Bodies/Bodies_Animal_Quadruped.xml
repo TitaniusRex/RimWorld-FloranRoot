@@ -35,7 +35,7 @@
 				    <li>HeadAttackTool</li>
 				</groups>
 				<parts>
-				<li>
+			<li>
 				    <def>Skull</def>
 					<coverage>0.25</coverage>
 					<depth>Inside</depth>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
