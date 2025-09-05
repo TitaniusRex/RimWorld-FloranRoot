@@ -34,7 +34,7 @@
 				        <groups>
 				            <li>HeadAttackTool</li>
 				        </groups>
-				<parts>
+				        <parts>
 			<li>
 				    <def>Skull</def>
 					<coverage>0.25</coverage>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
