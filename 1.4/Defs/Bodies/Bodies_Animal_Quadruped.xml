@@ -28,14 +28,14 @@
 			    <coverage>0.20</coverage>
 			    <height>Top</height>
 			    <parts>
+			    <li>
+			        <def>Head</def>
+				    <coverage>0.75</coverage>
+				    <groups>
+				        <li>HeadAttackTool</li>
+				    </groups>
+				    <parts>
 			        <li>
-			            <def>Head</def>
-				        <coverage>0.75</coverage>
-				        <groups>
-				            <li>HeadAttackTool</li>
-				        </groups>
-				        <parts>
-			                <li>
 				    <def>Skull</def>
 					<coverage>0.25</coverage>
 					<depth>Inside</depth>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
