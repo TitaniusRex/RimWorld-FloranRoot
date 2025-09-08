@@ -39,14 +39,14 @@
 				        <def>Skull</def>
 					    <coverage>0.25</coverage>
 					    <depth>Inside</depth>
-					<parts>
-					<li>
+					    <parts>
+					    <li>
 					    <def>Brain</def>
 						<coverage>0.7</coverage>
 						<depth>Inside</depth>
 					</li>
 				    </parts>
-			</li>
+			    </li>
 			<li>
 					<def>Eye</def>
 					<customLabel>left eye</customLabel>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
