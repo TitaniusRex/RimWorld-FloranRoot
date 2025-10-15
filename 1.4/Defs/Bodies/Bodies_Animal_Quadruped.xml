@@ -134,7 +134,7 @@
 			<height>Bottom</height>
 			<parts>
 			    <li>
-				<def>Paw</def>
+				    <def>Paw</def>
 				<customLabel>rear right paw</customLabel>
 				<coverage>0.15</coverage>
 			    </li>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
