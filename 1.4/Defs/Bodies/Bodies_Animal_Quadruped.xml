@@ -75,8 +75,8 @@
 					    <def>AnimalJaw</def>
 					    <coverage>0.1</coverage>
 					    <groups>
-					    <li>Teeth</li>
-					     </groups>
+					        <li>Teeth</li>
+					    </groups>
 				        </li>
 				</parts>
 			    </li>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
