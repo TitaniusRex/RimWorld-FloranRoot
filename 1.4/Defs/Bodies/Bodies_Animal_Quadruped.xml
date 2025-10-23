@@ -90,7 +90,7 @@
 			<parts>
 			    <li>
 				    <def>Paw</def>
-				<customLabel>front left paw</customLabel>
+				    <customLabel>front left paw</customLabel>
 				<coverage>0.15</coverage>
 				<groups>
 				    <li>FrontLeftPaw</li>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
