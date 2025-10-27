@@ -84,7 +84,7 @@
 		    </li>
 		    <li>
 			    <def>Leg</def>
-			<customLabel>front left leg</customLabel>
+			    <customLabel>front left leg</customLabel>
 			<coverage>0.07</coverage>
 			<height>Bottom</height>
 			<parts>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
