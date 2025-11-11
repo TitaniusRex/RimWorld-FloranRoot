@@ -94,7 +94,7 @@
 				    <coverage>0.15</coverage>
 				    <groups>
 				    <li>FrontLeftPaw</li>
-				</groups>
+				    </groups>
 			    </li>
 			</parts>
 		    </li>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
