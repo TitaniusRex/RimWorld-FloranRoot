@@ -93,7 +93,7 @@
 				    <customLabel>front left paw</customLabel>
 				    <coverage>0.15</coverage>
 				    <groups>
-				    <li>FrontLeftPaw</li>
+				        <li>FrontLeftPaw</li>
 				    </groups>
 			    </li>
 			</parts>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
