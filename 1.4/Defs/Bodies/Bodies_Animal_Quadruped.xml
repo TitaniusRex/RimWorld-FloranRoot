@@ -96,7 +96,7 @@
 				        <li>FrontLeftPaw</li>
 				    </groups>
 			    </li>
-			</parts>
+			    </parts>
 		    </li>
 		    <li>
 			    <def>Leg</def>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
