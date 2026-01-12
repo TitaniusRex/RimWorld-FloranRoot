@@ -150,7 +150,7 @@
 	    <label>Ricemonkey</label>
 	    <corePart>
 	        <def>Torso</def>
-	<height>Middle</height>
+	        <height>Middle</height>
 	<depth>Outside</depth>
 	<parts>
 	    <li>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
