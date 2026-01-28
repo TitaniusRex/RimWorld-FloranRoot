@@ -178,7 +178,7 @@
 					<depth>Inside</depth>
 		</li>
 		<li>
-					<def>Sternum</def>
+			<def>Sternum</def>
 					<coverage>0.005</coverage>
 					<depth>Inside</depth>
 		</li>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
