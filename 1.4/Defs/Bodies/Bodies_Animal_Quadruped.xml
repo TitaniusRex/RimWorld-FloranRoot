@@ -186,7 +186,7 @@
 			<def>Pelvis</def>
 			<coverage>0.01</coverage>
 			<height>Bottom</height>
-					<depth>Inside</depth>
+			<depth>Inside</depth>
 		</li>
 				<li>
 					<def>Spine</def>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
