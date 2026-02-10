@@ -180,7 +180,7 @@
 		<li>
 			<def>Sternum</def>
 			<coverage>0.005</coverage>
-					<depth>Inside</depth>
+			<depth>Inside</depth>
 		</li>
 		<li>
 			<def>Pelvis</def>
@@ -656,6 +656,7 @@
 	
 	
 </Defs>
+
 
 
 
