@@ -182,7 +182,6 @@
 	<description>Rat. More intelligent than the usual kind. A good friend but also a valuable resource.</description>
 	<statBases>
 		<MeatAmount>15</MeatAmount>
-
 		<MoveSpeed>4.0</MoveSpeed>
 		<MarketValue>335</MarketValue>
 		<ComfyTemperatureMin>-30</ComfyTemperatureMin>
@@ -882,4 +881,5 @@
 </PawnKindDef>
 
 </Defs>
+
 
