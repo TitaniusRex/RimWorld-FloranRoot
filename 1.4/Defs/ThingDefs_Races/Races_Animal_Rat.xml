@@ -610,7 +610,6 @@
 			<Tundra>0.1</Tundra>
 			<IceSheet>0.1</IceSheet>
 			<SeaIce>0.1</SeaIce>
-
 			<AridShrubland>0.1</AridShrubland>
 			<Desert>0.1</Desert>
 			<ExtremeDesert>0.1</ExtremeDesert>
@@ -877,6 +876,7 @@
 </PawnKindDef>
 
 </Defs>
+
 
 
 
