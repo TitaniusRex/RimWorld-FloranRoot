@@ -428,7 +428,6 @@
 			<TemperateSwamp>0.1</TemperateSwamp>
 			<TropicalRainforest>0.1</TropicalRainforest>
 			<TropicalSwamp>0.1</TropicalSwamp>
-
 			<BorealForest>0.1</BorealForest>
 			<ColdBog>0.1</ColdBog>
 			<Tundra>0.1</Tundra>
@@ -876,6 +875,7 @@
 </PawnKindDef>
 
 </Defs>
+
 
 
 
