@@ -402,7 +402,7 @@
 		</li>
 	</tools>
 	<race>
-		<useMeatFrom>Rat</useMeatFrom>
+		    <useMeatFrom>Rat</useMeatFrom>
 		<body>QuadrupedAnimalWithPaws</body>
 		<baseBodySize>0.4</baseBodySize>
 		<baseHungerRate>0.1</baseHungerRate>
