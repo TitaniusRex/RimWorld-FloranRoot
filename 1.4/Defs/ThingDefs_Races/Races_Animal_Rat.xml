@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	
 <!--__________________________________________________ChocoRat__________________________________________________-->
 
-<ThingDef ParentName="AnimalThingBase" Name="ChocoRatThingBase">
+    <ThingDef ParentName="AnimalThingBase" Name="ChocoRatThingBase">
 	<defName>FR_ChocoRat</defName>
 	<label>Choco Rat</label>
 	<description>Rat. More intelligent than the usual kind. A good friend but also a valuable resource.</description>
@@ -598,7 +599,7 @@
 		</litterSizeCurve>
 		<lifeExpectancy>6</lifeExpectancy>
 		<wildBiomes>
-			<TemperateForest>0.1</TemperateForest>
+			 <TemperateForest>0.1</TemperateForest>
 			<TemperateSwamp>0.1</TemperateSwamp>
 			<TropicalRainforest>0.1</TropicalRainforest>
 			<TropicalSwamp>0.1</TropicalSwamp>
