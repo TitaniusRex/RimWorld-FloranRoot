@@ -89,7 +89,7 @@
 			<AridShrubland>0.1</AridShrubland>
 			<Desert>0.1</Desert>
 			<ExtremeDesert>0.1</ExtremeDesert>
-		</wildBiomes>
+		    </wildBiomes>
 		<lifeStageAges>
 			<li>
 				<def>AnimalBaby</def>
