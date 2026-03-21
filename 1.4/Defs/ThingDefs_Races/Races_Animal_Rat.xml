@@ -66,7 +66,7 @@
 		<trainability>Advanced</trainability>
 		<petness>0.15</petness>
 		<mateMtbHours>8</mateMtbHours>
-		<gestationPeriodDays>5</gestationPeriodDays>
+		    <gestationPeriodDays>5</gestationPeriodDays>
 		<litterSizeCurve>
 			<points>
 				<li>(0.5, 0)</li>
