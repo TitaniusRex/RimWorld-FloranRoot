@@ -600,7 +600,7 @@
 		<lifeExpectancy>6</lifeExpectancy>
 		<wildBiomes>
 			 <TemperateForest>0.1</TemperateForest>
-			<TemperateSwamp>0.1</TemperateSwamp>
+			 <TemperateSwamp>0.1</TemperateSwamp>
 			<TropicalRainforest>0.1</TropicalRainforest>
 			<TropicalSwamp>0.1</TropicalSwamp>
 			<BorealForest>0.1</BorealForest>
