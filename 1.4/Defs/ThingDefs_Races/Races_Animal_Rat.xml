@@ -444,7 +444,7 @@
 				<minAge>0</minAge>
 			</li>
 			<li>
-				<def>AnimalJuvenile</def>
+				    <def>AnimalJuvenile</def>
 				<minAge>0.3</minAge>
 			</li>
 			<li>
