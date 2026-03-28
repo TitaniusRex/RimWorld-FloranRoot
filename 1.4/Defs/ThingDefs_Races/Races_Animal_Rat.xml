@@ -131,7 +131,7 @@
 	</tradeTags>
 </ThingDef>
 
-<PawnKindDef ParentName="AnimalKindBase" Name="ChocoRatKindBase">
+    <PawnKindDef ParentName="AnimalKindBase" Name="ChocoRatKindBase">
 	<defName>FR_ChocoRat</defName>
 	<label>Choco Rat</label>
 	<race>FR_ChocoRat</race>
