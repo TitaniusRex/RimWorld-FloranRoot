@@ -698,7 +698,7 @@
 </PawnKindDef>
 <!--__________________________________________________HopsRat__________________________________________________-->
 
-<ThingDef ParentName="AnimalThingBase" Name="HopsRatThingBase">
+    <ThingDef ParentName="AnimalThingBase" Name="HopsRatThingBase">
 	<defName>FR_HopsRat</defName>
 	<label>Hops Rat</label>
 	<description>Rat. More intelligent than the usual kind. A good friend but also a valuable resource.</description>
