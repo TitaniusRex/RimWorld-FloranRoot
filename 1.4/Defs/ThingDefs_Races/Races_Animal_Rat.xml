@@ -76,7 +76,7 @@
 			</points>
 		</litterSizeCurve>
 		<lifeExpectancy>6</lifeExpectancy>
-		<wildBiomes>
+		    <wildBiomes>
 			<TemperateForest>0.1</TemperateForest>
 			<TemperateSwamp>0.1</TemperateSwamp>
 			<TropicalRainforest>0.1</TropicalRainforest>
