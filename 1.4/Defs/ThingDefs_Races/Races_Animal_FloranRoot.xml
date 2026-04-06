@@ -46,7 +46,6 @@
 			<label>PotatoKing</label>
 			<devNote>misc</devNote>
 			<description>Majestic creatures were bred using the code of tuberous herbaceous plants from the genus Nightshade, (more simply potatoes), which is considered by many peoples as "second bread". Dangerous. They do not require as many nutrients as other species. Breed with care.</description>
-			
 			<statBases>
 				<MoveSpeed>6.0</MoveSpeed>
 				<MarketValue>500</MarketValue>	
