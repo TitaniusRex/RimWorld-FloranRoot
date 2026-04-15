@@ -2,7 +2,7 @@
 <Defs>
 
 	    <ThingDef Name="AnimalFloranBase" ParentName="AnimalThingBase" Abstract="True">
-		<devNote>Floran</devNote>
+		     <devNote>Floran</devNote>
 		<statBases>
 			    <MeatAmount>0</MeatAmount>
 				<Flammability>2</Flammability>
