@@ -64,7 +64,7 @@
     <race>
 	
 		    <useMeatFrom>Panther</useMeatFrom>
-		<animalType>Canine</animalType>
+		    <animalType>Canine</animalType>
 		<body>QuadrupedFloranWithPawsAndTail</body>
 		<baseBodySize>3</baseBodySize>
 		<baseHungerRate>0.2</baseHungerRate>
