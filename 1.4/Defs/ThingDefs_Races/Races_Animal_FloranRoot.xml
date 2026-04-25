@@ -174,7 +174,7 @@
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
-              <def>Stun</def>
+                  <def>Stun</def>
               <amount>10</amount>
             </li>
           </extraMeleeDamages>
